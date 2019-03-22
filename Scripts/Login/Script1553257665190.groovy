@@ -33,10 +33,10 @@ WebUI.setEncryptedText(findTestObject('Login/input_Invalid Email_email'), 'RfES2
 WebUI.click(findTestObject('Login/button_SIGN IN'))
 
 'Get toaster message after getting login'
-LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
+String LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
 
 'Verify the login success message and cofirm login '
-WebUI.verifyMatch('LoginTitle', 'Login Successful!', false)
+WebUI.verifyMatch(LoginTitle, 'Login Successful!', true)
 
 'Close the browser '
 WebUI.closeBrowser()

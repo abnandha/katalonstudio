@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Somke Test,Chrome 73.0.3683.86,,2019-03-22 19:36:08,2019-03-22 19:36:27,18.405s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,,2019-03-22 19:36:09,2019-03-22 19:36:27,18.047s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,Open Browser,2019-03-22 19:36:09,2019-03-22 19:36:17,7.425s,PASSED
+"navigateToUrl(""https://dev.esp.irisgst.com/"")",Chrome 73.0.3683.86,Hit URL to Browser,2019-03-22 19:36:17,2019-03-22 19:36:22,4.893s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,Maximize the browser tab,2019-03-22 19:36:22,2019-03-22 19:36:23,1.222s,PASSED
+"setText(findTestObject(""Login/input_SIGN UP_name""), ""amit.nandha@irisindia.net"")",Chrome 73.0.3683.86,Enter input to user name,2019-03-22 19:36:23,2019-03-22 19:36:24,0.757s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Invalid Email_email""), ""RfES2L809yyqtWvN0P2gPg=="")",Chrome 73.0.3683.86,Enter input to Password,2019-03-22 19:36:24,2019-03-22 19:36:25,1.087s,PASSED
+"click(findTestObject(""Login/button_SIGN IN""))",Chrome 73.0.3683.86,Click on sumbit button,2019-03-22 19:36:25,2019-03-22 19:36:25,0.166s,PASSED
+"LoginTitle = getText(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.86,Get toaster message after getting login,2019-03-22 19:36:25,2019-03-22 19:36:25,0.619s,PASSED
+"verifyMatch(""LoginTitle"", ""Login Successful!"", false)",Chrome 73.0.3683.86,Verify the login success message and cofirm login ,2019-03-22 19:36:25,2019-03-22 19:36:26,0.120s,FAILED
+closeBrowser(),Chrome 73.0.3683.86,Close the browser ,2019-03-22 19:36:26,2019-03-22 19:36:27,1.286s,FAILED
