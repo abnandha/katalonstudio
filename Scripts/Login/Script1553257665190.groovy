@@ -32,6 +32,8 @@ WebUI.setEncryptedText(findTestObject('Login/input_Invalid Email_email'), 'RfES2
 'Click on sumbit button'
 WebUI.click(findTestObject('Login/button_SIGN IN'))
 
+WebUI.delay(5)
+
 'Get toaster message after getting login'
 String LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
 

@@ -1,0 +1,36 @@
+1
+00:00:00,705 --> 00:00:00,709
+3. Open Browser
+
+2
+00:00:05,745 --> 00:00:05,749
+9. Hit URL to Browser
+
+3
+00:00:08,658 --> 00:00:08,660
+15. Maximize the browser tab
+
+4
+00:00:09,844 --> 00:00:09,845
+21. Enter input to user name
+
+5
+00:00:10,636 --> 00:00:10,642
+27. Enter input to Password
+
+6
+00:00:11,209 --> 00:00:11,212
+33. Click on sumbit button
+
+7
+00:00:11,447 --> 00:00:11,448
+39. Get toaster message after getting login
+
+8
+00:00:12,142 --> 00:00:12,143
+45. Verify the login success message and cofirm login 
+
+9
+00:00:12,205 --> 00:00:12,209
+51. Close the browser 
+
