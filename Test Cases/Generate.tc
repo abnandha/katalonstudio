@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill</description>
+   <name>Generate</name>
+   <tag>Generate Eway Bill</tag>
+   <comment></comment>
+   <testCaseGuid>924a67f5-c3d1-4b2a-b638-44de62dbf332</testCaseGuid>
+</TestCaseEntity>

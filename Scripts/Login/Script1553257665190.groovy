@@ -23,6 +23,13 @@ WebUI.navigateToUrl('https://dev.esp.irisgst.com/')
 'Maximize the browser tab'
 WebUI.maximizeWindow()
 
+WebUI.delay(2)
+
+'verify with title'
+String topazTitle = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(topazTitle, 'IRIS-TOPAZ', true)
+
 'Enter input to user name'
 WebUI.setText(findTestObject('Login/input_SIGN UP_name'), 'amit.nandha@irisindia.net')
 
@@ -32,14 +39,12 @@ WebUI.setEncryptedText(findTestObject('Login/input_Invalid Email_email'), 'RfES2
 'Click on sumbit button'
 WebUI.click(findTestObject('Login/button_SIGN IN'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 'Get toaster message after getting login'
 String LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
 
 'Verify the login success message and cofirm login '
 WebUI.verifyMatch(LoginTitle, 'Login Successful!', true)
-
-'Close the browser '
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Login/div_Login Successful'))
 
