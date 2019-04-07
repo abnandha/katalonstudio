@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 73.0.3683.86,,2019-04-07 02:37:38,2019-04-07 02:38:07,28.680s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,,2019-04-07 02:37:39,2019-04-07 02:37:53,14.500s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Open Browser,2019-04-07 02:37:40,2019-04-07 02:37:44,4.501s,PASSED
+"navigateToUrl(""https://dev.esp.irisgst.com/"")",Chrome 73.0.3683.86,Hit URL to Browser,2019-04-07 02:37:44,2019-04-07 02:37:47,2.846s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,Maximize the browser tab,2019-04-07 02:37:47,2019-04-07 02:37:48,1.151s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-07 02:37:48,2019-04-07 02:37:50,2.049s,PASSED
+topazTitle = getWindowTitle(),Chrome 73.0.3683.86,verify with title,2019-04-07 02:37:50,2019-04-07 02:37:50,0.047s,PASSED
+"verifyMatch(topazTitle, ""IRIS-TOPAZ"", true)",Chrome 73.0.3683.86,,2019-04-07 02:37:50,2019-04-07 02:37:50,0.012s,PASSED
+"setText(findTestObject(""Login/input_SIGN UP_name""), ""amit.nandha@irisindia.net"")",Chrome 73.0.3683.86,Enter input to user name,2019-04-07 02:37:50,2019-04-07 02:37:51,0.373s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Invalid Email_email""), ""RfES2L809yyqtWvN0P2gPg=="")",Chrome 73.0.3683.86,Enter input to Password,2019-04-07 02:37:51,2019-04-07 02:37:51,0.352s,PASSED
+"click(findTestObject(""Login/button_SIGN IN""))",Chrome 73.0.3683.86,Click on sumbit button,2019-04-07 02:37:51,2019-04-07 02:37:51,0.116s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-07 02:37:51,2019-04-07 02:37:53,2.006s,PASSED
+"LoginTitle = getText(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.86,Get toaster message after getting login,2019-04-07 02:37:53,2019-04-07 02:37:53,0.087s,PASSED
+"verifyMatch(LoginTitle, ""Login Successful!"", true)",Chrome 73.0.3683.86,Verify the login success message and cofirm login ,2019-04-07 02:37:53,2019-04-07 02:37:53,0.004s,PASSED
+"click(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.86,,2019-04-07 02:37:53,2019-04-07 02:37:53,0.169s,PASSED
+,,,,,,
+Test Cases/Generate,Chrome 73.0.3683.86,"1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill",2019-04-07 02:37:53,2019-04-07 02:38:06,12.822s,FAILED
+delay(3),Chrome 73.0.3683.86,,2019-04-07 02:37:54,2019-04-07 02:37:57,3.024s,PASSED
+"click(findTestObject(""Generate/i_Vijeta Business Solution_fa fa-angle-double-right""))",Chrome 73.0.3683.86,Click on arrow for changing root business,2019-04-07 02:37:57,2019-04-07 02:37:57,0.105s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:37:57,2019-04-07 02:37:58,1.006s,PASSED
+"click(findTestObject(""Generate/li_Nands Group""))",Chrome 73.0.3683.86,click on requested busienss,2019-04-07 02:37:58,2019-04-07 02:37:58,0.144s,PASSED
+"changeBusienssMsg = getText(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.86,,2019-04-07 02:37:58,2019-04-07 02:37:59,0.606s,PASSED
+"verifyMatch(changeBusienssMsg, ""Business Changed Successfully."", true)",Chrome 73.0.3683.86,,2019-04-07 02:37:59,2019-04-07 02:37:59,0.004s,PASSED
+"click(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.86,,2019-04-07 02:37:59,2019-04-07 02:37:59,0.154s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:37:59,2019-04-07 02:38:00,1.006s,PASSED
+"click(findTestObject(""Generate/i_Nands Group_fa fa-angle-double-right""))",Chrome 73.0.3683.86,,2019-04-07 02:38:00,2019-04-07 02:38:00,0.102s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:38:00,2019-04-07 02:38:01,1.003s,PASSED
+"click(findTestObject(""Generate/li_Nands Business""))",Chrome 73.0.3683.86,,2019-04-07 02:38:01,2019-04-07 02:38:01,0.131s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:38:01,2019-04-07 02:38:02,1.005s,PASSED
+"click(findTestObject(""Generate/i_Nands Business_fa fa-angle-double-right""))",Chrome 73.0.3683.86,,2019-04-07 02:38:02,2019-04-07 02:38:02,0.133s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:38:02,2019-04-07 02:38:03,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands_Entity_1""))",Chrome 73.0.3683.86,,2019-04-07 02:38:03,2019-04-07 02:38:03,0.120s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:38:03,2019-04-07 02:38:04,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands Group_1""))",Chrome 73.0.3683.86,,2019-04-07 02:38:04,2019-04-07 02:38:04,0.139s,PASSED
+"click(findTestObject(""Generate/span_Generate""))",Chrome 73.0.3683.86,,2019-04-07 02:38:04,2019-04-07 02:38:05,0.450s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-07 02:38:05,2019-04-07 02:38:06,1.003s,PASSED
+"selectOptionByLabel(findTestObject(""Generate/select_RegularBill To - Ship ToBill From - Dispatch FromBill To - Ship To Bill From - Dispatch From""), ""number:1"", true)",Chrome 73.0.3683.86,,2019-04-07 02:38:06,2019-04-07 02:38:06,0.286s,FAILED

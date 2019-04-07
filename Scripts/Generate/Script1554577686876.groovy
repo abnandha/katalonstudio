@@ -70,7 +70,7 @@ WebUI.selectOptionByValue(findTestObject('Generate/Select Document Type'), 'stri
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Generate/Enter Document Number'), 'Doc00001')
+WebUI.setText(findTestObject('Generate/Enter Document Number'), 'Doc00003')
 
 WebUI.delay(1)
 
@@ -80,3 +80,51 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('Generate/Enter Invoice Ref Number'), 'REFINV001')
 
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Generate/Select Supplier address'), 'number:7363', true)
+
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Generate/Select Recepient address'), 'number:548', true)
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Generate/Enter HSN code'), '88')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Generate/Enter Taxable Value'), '1')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Generate/Enter Quantity'), '1')
+WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Generate/Select CGST Rate'),
+	'string:1.50', true)
+WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Generate/Select SGST Rate'),
+	'string:1.50', true)
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Generate/Select Cess Advol'),
+	'string:3', true)
+WebUI.delay(1)
+WebUI.selectOptionByValue(findTestObject('Generate/Select Cess Non Advol'),
+	'number:400', true)
+WebUI.delay(1)
+WebUI.setText(findTestObject('Generate/Enter Distance'), '100')
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Generate/Select Trans mode'),
+	'number:1', true)
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Generate/Enter Vehical No'), 'MH02EX3636')
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Generate/Sumbit Button'))
+WebUI.delay(5)
+
+String MsgGen = WebUI.getText(findTestObject('Generate/Msg Generated Successfully'))
+WebUI.verifyMatch(MsgGen, 'Generated Successfully', true)
