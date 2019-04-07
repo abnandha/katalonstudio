@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 'Hit URL to Browser'
-WebUI.navigateToUrl('https://dev.esp.irisgst.com/')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 'Maximize the browser tab'
 WebUI.maximizeWindow()
@@ -31,13 +31,15 @@ String topazTitle = WebUI.getWindowTitle()
 WebUI.verifyMatch(topazTitle, 'IRIS-TOPAZ', true)
 
 'Enter input to user name'
-WebUI.setText(findTestObject('Login/input_SIGN UP_name'), 'amit.nandha@irisindia.net')
+WebUI.setText(findTestObject('Login/Enter Username'), GlobalVariable.username)
 
 'Enter input to Password'
-WebUI.setEncryptedText(findTestObject('Login/input_Invalid Email_email'), 'RfES2L809yyqtWvN0P2gPg==')
+WebUI.setText(findTestObject('Login/Enter Password'), GlobalVariable.password)
+
+WebUI.delay(1)
 
 'Click on sumbit button'
-WebUI.click(findTestObject('Login/button_SIGN IN'))
+WebUI.click(findTestObject('Login/Sign In button'))
 
 WebUI.delay(2)
 
@@ -46,5 +48,6 @@ String LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
 
 'Verify the login success message and cofirm login '
 WebUI.verifyMatch(LoginTitle, 'Login Successful!', true)
+
 WebUI.click(findTestObject('Login/div_Login Successful'))
 
