@@ -12,6 +12,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.sun.org.apache.xpath.internal.compiler.Keywords as Keywords
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
@@ -70,7 +71,7 @@ WebUI.selectOptionByValue(findTestObject('Generate/Select Document Type'), 'stri
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Generate/Enter Document Number'), DocNO)
+WebUI.setText(findTestObject('Generate/Enter Document Number'), docNo)
 
 WebUI.delay(1)
 
@@ -137,4 +138,8 @@ WebUI.delay(5)
 String MsgGen = WebUI.getText(findTestObject('Generate/Msg Generated Successfully'))
 
 WebUI.verifyMatch(MsgGen, 'Generated Successfully', true)
+
+String ewayBillNo = WebUI.getText(findTestObject('Generate/Eway bill number'))
+
+CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNo)
 
