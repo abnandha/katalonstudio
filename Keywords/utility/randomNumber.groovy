@@ -41,35 +41,24 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Date;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import java.lang.String
 
-
-class WriteToExcel {
-
+class randomNumber {
+	/**
+	 * Refresh browser
+	 */
 	@Keyword
-	def Sd(String ewybillnumber,int row, int colunm) {
+	def rendomNo(int length) {
+		String chars = '0123456789'
 
+		Random rand = new Random();
 
+		StringBuilder sb = new StringBuilder();
 
-		FileInputStream file = new FileInputStream (new File("E:\\Katalon Testdata\\generateTestData.xlsx"))
-		XSSFWorkbook workbook = new XSSFWorkbook(file);
-		XSSFSheet sheet = workbook.getSheetAt(0);
+		for (int i=0; i<length; i++) {
 
-		'Read data from excel'
-		//String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
-		'Write data to excel'
-		sheet.getRow(row).createCell(colunm).setCellValue(ewybillnumber);
-		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File("E:\\Katalon Testdata\\generateTestData.xlsx"));
-		workbook.write(outFile);
-		outFile.close();
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+
+		return sb.toString();
 	}
 }

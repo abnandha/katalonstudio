@@ -30,20 +30,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Generate</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>6917ef59-76df-4b5d-846d-5306c70d27c0</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Generate</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>6917ef59-76df-4b5d-846d-5306c70d27c0</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>DocNo</value>
-         <variableId>f880733c-11a2-4579-a6e3-00e78b238c68</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

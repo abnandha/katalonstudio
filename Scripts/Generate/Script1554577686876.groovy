@@ -71,7 +71,10 @@ WebUI.selectOptionByValue(findTestObject('Generate/Select Document Type'), 'stri
 
 WebUI.delay(1)
 
+String docNo=CustomKeywords.'utility.randomNumber.rendomNo'(8) 
 WebUI.setText(findTestObject('Generate/Enter Document Number'), docNo)
+WebUI.delay(1)
+CustomKeywords.'utility.WriteToExcel.Sd'(docNo,1,0)
 
 WebUI.delay(1)
 
@@ -141,5 +144,23 @@ WebUI.verifyMatch(MsgGen, 'Generated Successfully', true)
 
 String ewayBillNo = WebUI.getText(findTestObject('Generate/Eway bill number'))
 
-CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNo)
+CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNo,1,1)
+
+String EwayBillDate = WebUI.getText(findTestObject('Generate/Eway Bill date'))
+
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillDate,1,2)
+
+String EwayValidityDate = WebUI.getText(findTestObject('Generate/Eway bill Validity date'))
+
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayValidityDate,1,3)
+
+String EwayBillStatus = WebUI.getText(findTestObject('Generate/Eway Bill Status'))
+
+WebUI.verifyMatch(EwayBillStatus, 'ACTIVE', true)
+
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillStatus,1,4)
+
+
+
+
 
