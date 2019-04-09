@@ -59,7 +59,7 @@ class WriteToExcel {
 
 
 
-		FileInputStream file = new FileInputStream (new File("E:\\Katalon Testdata\\generateTestData.xlsx"))
+		FileInputStream file = new FileInputStream (new File("D:\\Katalon_Studio_Windows_64\\generateTestData.xlsx"))
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -68,8 +68,9 @@ class WriteToExcel {
 		'Write data to excel'
 		sheet.getRow(row).createCell(colunm).setCellValue(ewybillnumber);
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File("E:\\Katalon Testdata\\generateTestData.xlsx"));
+		FileOutputStream outFile =new FileOutputStream(new File("D:\\Katalon_Studio_Windows_64\\generateTestData.xlsx"));
 		workbook.write(outFile);
+		outFile.flush();
 		outFile.close();
 	}
 }
