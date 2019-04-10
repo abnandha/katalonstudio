@@ -1,19 +1,9 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword as VerifyMatchKeyword
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import com.kms.katalon.core.logging.KeywordLogger
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.sun.org.apache.xpath.internal.compiler.Keywords as Keywords
-import internal.GlobalVariable as GlobalVariable
+
+KeywordLogger log = new KeywordLogger()
 
 WebUI.delay(3)
 
@@ -256,13 +246,18 @@ WebUI.verifyMatch(MsgGenn, 'Generated Successfully', true)
 
 WebUI.delay(1)
 
-String ewayBillNoo = WebUI.getText(findTestObject('Generate/Eway bill number'))
+WebUI.click(findTestObject('Generate/Msg_GSTIN is valid'))
+WebUI.delay(1)
+
+String ewayBillNoo = WebUI.getText(findTestObject('Generate/EwayBill number - Active Invalid'))
+log.logInfo('ewayBillNoo:'+ewayBillNoo)
+
 
 CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNoo, 2, 1)
 
 WebUI.delay(1)
 
-String EwayBillDatee = WebUI.getText(findTestObject('Generate/Eway Bill date'))
+String EwayBillDatee = WebUI.getText(findTestObject('Generate/EWB Date - Active Invalid'))
 
 CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillDatee, 2, 2)
 

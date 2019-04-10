@@ -1,0 +1,143 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 73.0.3683.86,,2019-04-10 00:35:09,2019-04-10 00:36:47,1m - 38.046s,ERROR
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,,2019-04-10 00:35:09,2019-04-10 00:35:23,14.011s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,Open Browser,2019-04-10 00:35:10,2019-04-10 00:35:14,4.377s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.86,Hit URL to Browser,2019-04-10 00:35:14,2019-04-10 00:35:16,2.016s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,Maximize the browser tab,2019-04-10 00:35:16,2019-04-10 00:35:17,1.163s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 00:35:17,2019-04-10 00:35:19,2.046s,PASSED
+topazTitle = getWindowTitle(),Chrome 73.0.3683.86,verify with title,2019-04-10 00:35:19,2019-04-10 00:35:20,0.053s,PASSED
+"verifyMatch(topazTitle, ""IRIS-TOPAZ"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:20,2019-04-10 00:35:20,0.019s,PASSED
+"setText(findTestObject(""Login/Enter Username""), username)",Chrome 73.0.3683.86,Enter input to user name,2019-04-10 00:35:20,2019-04-10 00:35:20,0.318s,PASSED
+"setText(findTestObject(""Login/Enter Password""), password)",Chrome 73.0.3683.86,Enter input to Password,2019-04-10 00:35:20,2019-04-10 00:35:20,0.173s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:20,2019-04-10 00:35:21,1.006s,PASSED
+"click(findTestObject(""Login/Sign In button""))",Chrome 73.0.3683.86,Click on sumbit button,2019-04-10 00:35:21,2019-04-10 00:35:21,0.171s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-10 00:35:21,2019-04-10 00:35:23,2.005s,PASSED
+"LoginTitle = getText(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.86,Get toaster message after getting login,2019-04-10 00:35:23,2019-04-10 00:35:23,0.068s,PASSED
+"verifyMatch(LoginTitle, ""Login Successful!"", true)",Chrome 73.0.3683.86,Verify the login success message and cofirm login ,2019-04-10 00:35:23,2019-04-10 00:35:23,0.003s,PASSED
+"click(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.86,,2019-04-10 00:35:23,2019-04-10 00:35:23,0.095s,PASSED
+,,,,,,
+Test Cases/Generate,Chrome 73.0.3683.86,"1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill",2019-04-10 00:35:23,2019-04-10 00:36:46,1m - 22.602s,ERROR
+delay(3),Chrome 73.0.3683.86,,2019-04-10 00:35:24,2019-04-10 00:35:27,3.004s,PASSED
+"click(findTestObject(""Generate/i_Vijeta Business Solution_fa fa-angle-double-right""))",Chrome 73.0.3683.86,Click on arrow for changing root business,2019-04-10 00:35:27,2019-04-10 00:35:27,0.095s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:27,2019-04-10 00:35:28,1.003s,PASSED
+"click(findTestObject(""Generate/li_Nands Group""))",Chrome 73.0.3683.86,click on requested busienss,2019-04-10 00:35:28,2019-04-10 00:35:28,0.098s,PASSED
+"changeBusienssMsg = getText(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.86,,2019-04-10 00:35:28,2019-04-10 00:35:29,0.577s,PASSED
+"verifyMatch(changeBusienssMsg, ""Business Changed Successfully."", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:29,2019-04-10 00:35:29,0.003s,PASSED
+"click(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.86,,2019-04-10 00:35:29,2019-04-10 00:35:29,0.092s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:29,2019-04-10 00:35:30,1.003s,PASSED
+"click(findTestObject(""Generate/i_Nands Group_fa fa-angle-double-right""))",Chrome 73.0.3683.86,,2019-04-10 00:35:30,2019-04-10 00:35:30,0.167s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:30,2019-04-10 00:35:31,1.007s,PASSED
+"click(findTestObject(""Generate/li_Nands Business""))",Chrome 73.0.3683.86,,2019-04-10 00:35:31,2019-04-10 00:35:31,0.137s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:31,2019-04-10 00:35:32,1.005s,PASSED
+"click(findTestObject(""Generate/i_Nands Business_fa fa-angle-double-right""))",Chrome 73.0.3683.86,,2019-04-10 00:35:32,2019-04-10 00:35:32,0.164s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:32,2019-04-10 00:35:33,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands_Entity_1""))",Chrome 73.0.3683.86,,2019-04-10 00:35:33,2019-04-10 00:35:33,0.216s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:33,2019-04-10 00:35:34,1.008s,PASSED
+"click(findTestObject(""Generate/li_Nands Group_1""))",Chrome 73.0.3683.86,,2019-04-10 00:35:34,2019-04-10 00:35:35,0.162s,PASSED
+"click(findTestObject(""Generate/Generate Tab""))",Chrome 73.0.3683.86,,2019-04-10 00:35:35,2019-04-10 00:35:35,0.168s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-10 00:35:35,2019-04-10 00:35:38,3.006s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Transaction Type""), ""number:1"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:38,2019-04-10 00:35:38,0.263s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:38,2019-04-10 00:35:39,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Sub Supply Type""), ""number:1"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:39,2019-04-10 00:35:39,0.338s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:39,2019-04-10 00:35:40,1.005s,PASSED
+"setText(findTestObject(""Generate/Enter Sub-supply type Description""), ""SubSupplyDescription"")",Chrome 73.0.3683.86,,2019-04-10 00:35:40,2019-04-10 00:35:41,0.666s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:41,2019-04-10 00:35:42,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Document Type""), ""string:INV"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:42,2019-04-10 00:35:42,0.225s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:42,2019-04-10 00:35:43,1.005s,PASSED
+docNo = utility.randomNumber.rendomNo(8),Chrome 73.0.3683.86,,2019-04-10 00:35:43,2019-04-10 00:35:43,0.072s,PASSED
+"setText(findTestObject(""Generate/Enter Document Number""), docNo)",Chrome 73.0.3683.86,,2019-04-10 00:35:43,2019-04-10 00:35:44,0.343s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:44,2019-04-10 00:35:45,1.005s,PASSED
+"utility.WriteToExcel.Sd(docNo, 1, 0)",Chrome 73.0.3683.86,,2019-04-10 00:35:45,2019-04-10 00:35:46,1.019s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:46,2019-04-10 00:35:47,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Invoice Type""), ""string:B2B"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:47,2019-04-10 00:35:47,0.429s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:47,2019-04-10 00:35:48,1.006s,PASSED
+"setText(findTestObject(""Generate/Enter Invoice Ref Number""), ""REFINV001"")",Chrome 73.0.3683.86,,2019-04-10 00:35:48,2019-04-10 00:35:49,0.567s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:49,2019-04-10 00:35:50,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Supplier address""), ""number:7363"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:50,2019-04-10 00:35:50,0.228s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:50,2019-04-10 00:35:51,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Recepient address""), ""number:548"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:51,2019-04-10 00:35:52,0.479s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:52,2019-04-10 00:35:53,1.004s,PASSED
+"setText(findTestObject(""Generate/Enter HSN code""), ""88"")",Chrome 73.0.3683.86,,2019-04-10 00:35:53,2019-04-10 00:35:53,0.258s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:53,2019-04-10 00:35:54,1.005s,PASSED
+"setText(findTestObject(""Generate/Enter Taxable Value""), ""1"")",Chrome 73.0.3683.86,,2019-04-10 00:35:54,2019-04-10 00:35:54,0.209s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:54,2019-04-10 00:35:55,1.006s,PASSED
+"setText(findTestObject(""Generate/Enter Quantity""), ""1"")",Chrome 73.0.3683.86,,2019-04-10 00:35:55,2019-04-10 00:35:55,0.202s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:55,2019-04-10 00:35:56,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select CGST Rate""), ""string:1.50"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:56,2019-04-10 00:35:57,0.463s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:57,2019-04-10 00:35:58,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select SGST Rate""), ""string:1.50"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:58,2019-04-10 00:35:58,0.359s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:35:58,2019-04-10 00:35:59,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Advol""), ""string:3"", true)",Chrome 73.0.3683.86,,2019-04-10 00:35:59,2019-04-10 00:36:00,0.522s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:00,2019-04-10 00:36:01,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Non Advol""), ""number:400"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:01,2019-04-10 00:36:01,0.314s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:01,2019-04-10 00:36:02,1.004s,PASSED
+"setText(findTestObject(""Generate/Enter Distance""), ""100"")",Chrome 73.0.3683.86,,2019-04-10 00:36:02,2019-04-10 00:36:02,0.216s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:02,2019-04-10 00:36:03,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Trans mode""), ""number:1"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:03,2019-04-10 00:36:03,0.219s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:03,2019-04-10 00:36:04,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter Vehical No""), ""MH02EX3636"")",Chrome 73.0.3683.86,,2019-04-10 00:36:04,2019-04-10 00:36:05,0.363s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:05,2019-04-10 00:36:06,1.001s,PASSED
+"click(findTestObject(""Generate/Sumbit Button""))",Chrome 73.0.3683.86,,2019-04-10 00:36:06,2019-04-10 00:36:06,0.159s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-10 00:36:06,2019-04-10 00:36:11,5.002s,PASSED
+"MsgGen = getText(findTestObject(""Generate/Msg Generated Successfully""))",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.090s,PASSED
+"verifyMatch(MsgGen, ""Generated Successfully"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.004s,PASSED
+"ewayBillNo = getText(findTestObject(""Generate/Eway bill number""))",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.058s,PASSED
+"utility.WriteToExcel.Sd(ewayBillNo, 1, 1)",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.060s,PASSED
+"EwayBillDate = getText(findTestObject(""Generate/Eway Bill date""))",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.052s,PASSED
+"utility.WriteToExcel.Sd(EwayBillDate, 1, 2)",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.053s,PASSED
+"EwayValidityDate = getText(findTestObject(""Generate/Eway bill Validity date""))",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.055s,PASSED
+"utility.WriteToExcel.Sd(EwayValidityDate, 1, 3)",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.056s,PASSED
+"EwayBillStatus = getText(findTestObject(""Generate/Eway Bill Status""))",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.050s,PASSED
+"verifyMatch(EwayBillStatus, ""ACTIVE"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.001s,PASSED
+"utility.WriteToExcel.Sd(EwayBillStatus, 1, 4)",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:11,0.068s,PASSED
+"click(findTestObject(""Generate/Generate Another button""))",Chrome 73.0.3683.86,,2019-04-10 00:36:11,2019-04-10 00:36:12,0.118s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-10 00:36:12,2019-04-10 00:36:15,3.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Transaction Type""), ""number:1"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:15,2019-04-10 00:36:15,0.291s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:15,2019-04-10 00:36:16,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Sub Supply Type""), ""number:1"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:16,2019-04-10 00:36:16,0.216s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:16,2019-04-10 00:36:17,1.001s,PASSED
+"setText(findTestObject(""Generate/Enter Sub-supply type Description""), ""SubSupplyDescription"")",Chrome 73.0.3683.86,,2019-04-10 00:36:17,2019-04-10 00:36:18,0.610s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:18,2019-04-10 00:36:19,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Document Type""), ""string:INV"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:19,2019-04-10 00:36:19,0.161s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:19,2019-04-10 00:36:20,1.004s,PASSED
+docnoo = utility.randomNumber.rendomNo(8),Chrome 73.0.3683.86,,2019-04-10 00:36:20,2019-04-10 00:36:20,0.001s,PASSED
+"setText(findTestObject(""Generate/Enter Document Number""), docnoo)",Chrome 73.0.3683.86,,2019-04-10 00:36:20,2019-04-10 00:36:20,0.348s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:20,2019-04-10 00:36:21,1.002s,PASSED
+"utility.WriteToExcel.Sd(docnoo, 2, 0)",Chrome 73.0.3683.86,,2019-04-10 00:36:21,2019-04-10 00:36:21,0.104s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:21,2019-04-10 00:36:22,1.006s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Invoice Type""), ""string:B2B"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:22,2019-04-10 00:36:23,0.353s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:23,2019-04-10 00:36:24,1.004s,PASSED
+"setText(findTestObject(""Generate/Enter Invoice Ref Number""), ""REFINV001"")",Chrome 73.0.3683.86,,2019-04-10 00:36:24,2019-04-10 00:36:24,0.393s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:24,2019-04-10 00:36:25,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Supplier address""), ""number:7363"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:25,2019-04-10 00:36:25,0.302s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:25,2019-04-10 00:36:26,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Recepient address""), ""number:548"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:26,2019-04-10 00:36:27,0.353s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:27,2019-04-10 00:36:28,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter HSN code""), ""88"")",Chrome 73.0.3683.86,,2019-04-10 00:36:28,2019-04-10 00:36:28,0.238s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:28,2019-04-10 00:36:29,1.004s,PASSED
+"setText(findTestObject(""Generate/Enter Taxable Value""), ""1"")",Chrome 73.0.3683.86,,2019-04-10 00:36:29,2019-04-10 00:36:29,0.224s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:29,2019-04-10 00:36:30,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter Quantity""), ""1"")",Chrome 73.0.3683.86,,2019-04-10 00:36:30,2019-04-10 00:36:30,0.232s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:30,2019-04-10 00:36:31,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select CGST Rate""), ""string:1.50"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:31,2019-04-10 00:36:32,0.329s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:32,2019-04-10 00:36:33,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select SGST Rate""), ""string:1.50"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:33,2019-04-10 00:36:33,0.311s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:33,2019-04-10 00:36:34,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Advol""), ""string:3"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:34,2019-04-10 00:36:35,0.520s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:35,2019-04-10 00:36:36,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Non Advol""), ""number:400"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:36,2019-04-10 00:36:36,0.255s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:36,2019-04-10 00:36:37,1.005s,PASSED
+"setText(findTestObject(""Generate/Enter Distance""), ""100"")",Chrome 73.0.3683.86,,2019-04-10 00:36:37,2019-04-10 00:36:37,0.274s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:37,2019-04-10 00:36:38,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter Transporter ID""), ""05AAAAU1183B1Z0"")",Chrome 73.0.3683.86,,2019-04-10 00:36:38,2019-04-10 00:36:39,0.532s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:39,2019-04-10 00:36:40,1.001s,PASSED
+"click(findTestObject(""Generate/Sumbit Button""))",Chrome 73.0.3683.86,,2019-04-10 00:36:40,2019-04-10 00:36:40,0.160s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-10 00:36:40,2019-04-10 00:36:45,5.006s,PASSED
+"MsgGenn = getText(findTestObject(""Generate/Message for not active""))",Chrome 73.0.3683.86,,2019-04-10 00:36:45,2019-04-10 00:36:45,0.091s,PASSED
+"verifyMatch(MsgGenn, ""Generated Successfully"", true)",Chrome 73.0.3683.86,,2019-04-10 00:36:45,2019-04-10 00:36:45,0.000s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-10 00:36:45,2019-04-10 00:36:46,1.005s,PASSED
+"ewayBillNoo = getText(findTestObject(""Generate/Eway bill number""))",Chrome 73.0.3683.86,,2019-04-10 00:36:46,2019-04-10 00:36:46,0.071s,PASSED
+"pritnln(""ewayBillNoo:"" + ewayBillNoo)",Chrome 73.0.3683.86,,2019-04-10 00:36:46,2019-04-10 00:36:46,0.034s,ERROR
