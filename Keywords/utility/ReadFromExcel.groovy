@@ -51,26 +51,25 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.lang.String
 
-
-class WriteToExcel {
-
+class ReadFromExcel {
+	/**
+	 * Refresh browser
+	 */
 	@Keyword
-	def Sd(String ewybillnumber,int SheetNo, int row, int colunm) {
-
-
-
+	def Read(int sheetNo,int row, int colunm) {
 		FileInputStream file = new FileInputStream (new File("E:\\Katalon Testdata\\generateTestData.xlsx"))
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
-		XSSFSheet sheet = workbook.getSheetAt(SheetNo);
+		XSSFSheet sheet = workbook.getSheetAt(sheetNo);
 
 		'Read data from excel'
-		//String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
+		String Data_fromCell=sheet.getRow(row).getCell(colunm).getStringCellValue();
 		'Write data to excel'
-		sheet.getRow(row).createCell(colunm).setCellValue(ewybillnumber);
+		//sheet.getRow(row).createCell(colunm).setCellValue(ewybillnumber);
 		file.close();
 		FileOutputStream outFile =new FileOutputStream(new File("E:\\Katalon Testdata\\generateTestData.xlsx"));
 		workbook.write(outFile);
 		outFile.flush();
 		outFile.close();
+		return Data_fromCell;
 	}
 }

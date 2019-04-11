@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 73.0.3683.103,,2019-04-12 01:45:26,2019-04-12 01:45:42,16.364s,ERROR
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.103,,2019-04-12 01:45:26,2019-04-12 01:45:41,14.630s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,Open Browser,2019-04-12 01:45:27,2019-04-12 01:45:31,3.829s,PASSED
+navigateToUrl(url),Chrome 73.0.3683.103,Hit URL to Browser,2019-04-12 01:45:31,2019-04-12 01:45:34,3.068s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,Maximize the browser tab,2019-04-12 01:45:34,2019-04-12 01:45:35,1.191s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-12 01:45:35,2019-04-12 01:45:37,2.036s,PASSED
+topazTitle = getWindowTitle(),Chrome 73.0.3683.103,verify with title,2019-04-12 01:45:37,2019-04-12 01:45:37,0.061s,PASSED
+"verifyMatch(topazTitle, ""IRIS-TOPAZ"", true)",Chrome 73.0.3683.103,,2019-04-12 01:45:37,2019-04-12 01:45:37,0.010s,PASSED
+"setText(findTestObject(""Login/Enter Username""), username)",Chrome 73.0.3683.103,Enter input to user name,2019-04-12 01:45:37,2019-04-12 01:45:37,0.324s,PASSED
+"setText(findTestObject(""Login/Enter Password""), password)",Chrome 73.0.3683.103,Enter input to Password,2019-04-12 01:45:37,2019-04-12 01:45:38,0.166s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-12 01:45:38,2019-04-12 01:45:39,1.004s,PASSED
+"click(findTestObject(""Login/Sign In button""))",Chrome 73.0.3683.103,Click on sumbit button,2019-04-12 01:45:39,2019-04-12 01:45:39,0.152s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-12 01:45:39,2019-04-12 01:45:41,2.003s,PASSED
+"LoginTitle = getText(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.103,Get toaster message after getting login,2019-04-12 01:45:41,2019-04-12 01:45:41,0.080s,PASSED
+"verifyMatch(LoginTitle, ""Login Successful!"", true)",Chrome 73.0.3683.103,Verify the login success message and cofirm login ,2019-04-12 01:45:41,2019-04-12 01:45:41,0.005s,PASSED
+"click(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.103,,2019-04-12 01:45:41,2019-04-12 01:45:41,0.098s,PASSED
+,,,,,,
+Test Cases/Generate,Chrome 73.0.3683.103,"1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill",2019-04-12 01:45:41,2019-04-12 01:45:41,0.372s,ERROR
+,,,,,,
+Test Cases/Update,Chrome 73.0.3683.103,,2019-04-12 01:45:41,2019-04-12 01:45:41,0.157s,ERROR

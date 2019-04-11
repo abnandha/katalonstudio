@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="16" tests="1" failures="0" errors="2">
+   <testsuite name="Smoke Test" tests="1" failures="0" errors="2" time="16" timestamp="2019-04-12 01:45:26" hostname="Amitansh - DESKTOP-TMTUP2J" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190412_014523"/>
+         <property name="logFiles" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190412_014523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Amitansh - DESKTOP-TMTUP2J"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="8ae5398e6b9cf3ba455a894e7af7a3f9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-04-12 01:45:26 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-04-12 01:45:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-12 01:45:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-12 01:45:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-12 01:45:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-12 01:45:31 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-12 01:45:34 - [MESSAGE][PASSED] - Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-12 01:45:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-12 01:45:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-12 01:45:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 01:45:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 01:45:37 - [TEST_STEP][PASSED] - topazTitle = getWindowTitle(): Current window's title is: 'IRIS-TOPAZ'
+
+2019-04-12 01:45:37 - [MESSAGE][PASSED] - Current window's title is: 'IRIS-TOPAZ'
+
+2019-04-12 01:45:37 - [TEST_STEP][PASSED] - verifyMatch(topazTitle, "IRIS-TOPAZ", true): Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-12 01:45:37 - [MESSAGE][PASSED] - Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-12 01:45:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Enter Username"), username): Text 'amit.nandha@irisindia.net' is set on object 'Object Repository/Login/Enter Username'
+
+2019-04-12 01:45:37 - [MESSAGE][PASSED] - Text 'amit.nandha@irisindia.net' is set on object 'Object Repository/Login/Enter Username'
+
+2019-04-12 01:45:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Enter Password"), password): Text 'Abcd@12345' is set on object 'Object Repository/Login/Enter Password'
+
+2019-04-12 01:45:38 - [MESSAGE][PASSED] - Text 'Abcd@12345' is set on object 'Object Repository/Login/Enter Password'
+
+2019-04-12 01:45:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-12 01:45:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-12 01:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In button")): Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-12 01:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-12 01:45:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 01:45:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 01:45:41 - [TEST_STEP][PASSED] - LoginTitle = getText(findTestObject("Login/div_Login Successful")): Text of object 'Object Repository/Login/div_Login Successful' is: 'Login Successful!'
+
+2019-04-12 01:45:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/div_Login Successful' is: 'Login Successful!'
+
+2019-04-12 01:45:41 - [TEST_STEP][PASSED] - verifyMatch(LoginTitle, "Login Successful!", true): Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-12 01:45:41 - [MESSAGE][PASSED] - Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-12 01:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/div_Login Successful")): Object: 'Object Repository/Login/div_Login Successful' is clicked on
+
+2019-04-12 01:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Login Successful' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generate" classname="Test Cases/Generate" status="ERROR">
+         <error type="ERROR" message="Test Cases/Generate FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Generate/Script1554577686876.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-12 01:45:41 - [TEST_CASE][ERROR] - Test Cases/Generate: Test Cases/Generate FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Generate/Script1554577686876.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-12 01:45:41 - [TEST_CASE][ERROR] - Test Cases/Generate: Test Cases/Generate FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Generate/Script1554577686876.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update" classname="Test Cases/Update" status="ERROR">
+         <error type="ERROR" message="Test Cases/Update FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Update/Script1555009397923.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-12 01:45:41 - [TEST_CASE][ERROR] - Test Cases/Update: Test Cases/Update FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Update/Script1555009397923.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-12 01:45:41 - [TEST_CASE][ERROR] - Test Cases/Update: Test Cases/Update FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Update/Script1555009397923.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-12 01:45:26 - [TEST_SUITE][ERROR] - Smoke Test: Test Cases/Generate FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Generate/Script1554577686876.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-12 01:45:26 - [TEST_SUITE][ERROR] - Smoke Test: Test Cases/Generate FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/Amitansh/git/katalonstudio/Scripts/Generate/Script1554577686876.groovy: 7: unable to resolve class KeywordUtil.logInfo 
+ @ line 7, column 21.
+   KeywordLogger log = new KeywordUtil.logInfo()
+                       ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555013723800.run(TempTestSuite1555013723800.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

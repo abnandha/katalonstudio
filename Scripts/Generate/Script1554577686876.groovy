@@ -1,9 +1,9 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-KeywordLogger log = new KeywordLogger()
 
 WebUI.delay(3)
 
@@ -67,7 +67,7 @@ WebUI.setText(findTestObject('Generate/Enter Document Number'), docNo)
 
 WebUI.delay(1)
 
-CustomKeywords.'utility.WriteToExcel.Sd'(docNo, 1, 0)
+CustomKeywords.'utility.WriteToExcel.Sd'(docNo,0,1,0)
 
 WebUI.delay(1)
 
@@ -137,21 +137,21 @@ WebUI.verifyMatch(MsgGen, 'Generated Successfully', true)
 
 String ewayBillNo = WebUI.getText(findTestObject('Generate/Eway bill number'))
 
-CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNo, 1, 1)
+CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNo, 0, 1, 1)
 
 String EwayBillDate = WebUI.getText(findTestObject('Generate/Eway Bill date'))
 
-CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillDate, 1, 2)
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillDate, 0, 1, 2)
 
 String EwayValidityDate = WebUI.getText(findTestObject('Generate/Eway bill Validity date'))
 
-CustomKeywords.'utility.WriteToExcel.Sd'(EwayValidityDate, 1, 3)
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayValidityDate, 0, 1, 3)
 
 String EwayBillStatus = WebUI.getText(findTestObject('Generate/Eway Bill Status'))
 
 WebUI.verifyMatch(EwayBillStatus, 'ACTIVE', true)
 
-CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillStatus, 1, 4)
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillStatus, 0, 1, 4)
 
 WebUI.click(findTestObject('Generate/Generate Another button'))
 
@@ -180,7 +180,7 @@ WebUI.setText(findTestObject('Generate/Enter Document Number'), docnoo)
 
 WebUI.delay(1)
 
-CustomKeywords.'utility.WriteToExcel.Sd'(docnoo, 2, 0)
+CustomKeywords.'utility.WriteToExcel.Sd'(docnoo,0,2, 0)
 
 WebUI.delay(1)
 
@@ -250,16 +250,16 @@ WebUI.click(findTestObject('Generate/Msg_GSTIN is valid'))
 WebUI.delay(1)
 
 String ewayBillNoo = WebUI.getText(findTestObject('Generate/EwayBill number - Active Invalid'))
-log.logInfo('ewayBillNoo:'+ewayBillNoo)
+KeywordUtil.logInfo('ewayBillNoo:'+ewayBillNoo)
 
 
-CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNoo, 2, 1)
+CustomKeywords.'utility.WriteToExcel.Sd'(ewayBillNoo,0, 2, 1)
 
 WebUI.delay(1)
 
 String EwayBillDatee = WebUI.getText(findTestObject('Generate/EWB Date - Active Invalid'))
 
-CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillDatee, 2, 2)
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillDatee,0, 2, 2)
 
 WebUI.delay(1)
 
@@ -267,5 +267,13 @@ String EwayBillStatuss = WebUI.getText(findTestObject('Generate/Status - Active 
 
 WebUI.verifyMatch(EwayBillStatuss, 'ACTIVE NOT YET VALID', true)
 
-CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillStatuss, 2, 4)
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillStatuss,0, 2, 4)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('null'))
+
+WebUI.delay(2)
+
+
 
