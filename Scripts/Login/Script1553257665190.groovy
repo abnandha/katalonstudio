@@ -18,17 +18,26 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 'Hit URL to Browser'
-WebUI.navigateToUrl(GlobalVariable.url)
+try {
+	WebUI.navigateToUrl(GlobalVariable.url)
+} catch (Exception e) {
+	e.printStackTrace()
+}
+
 
 'Maximize the browser tab'
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
-
+ 
 'verify with title'
-String topazTitle = WebUI.getWindowTitle()
+try {
+	String topazTitle = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(topazTitle, 'IRIS-TOPAZ', true)
+    WebUI.verifyMatch(topazTitle, 'IRIS-TOPAZ', true)
+} catch (Exception e) {
+	e.printStackTrace()
+}
 
 'Enter input to user name'
 WebUI.setText(findTestObject('Login/Enter Username'), GlobalVariable.username)
@@ -39,15 +48,25 @@ WebUI.setText(findTestObject('Login/Enter Password'), GlobalVariable.password)
 WebUI.delay(1)
 
 'Click on sumbit button'
-WebUI.click(findTestObject('Login/Sign In button'))
+try {
+	WebUI.click(findTestObject('Login/Sign In button'))
+} catch (Exception e) {
+	e.printStackTrace()
+}
+
 
 WebUI.delay(2)
 
 'Get toaster message after getting login'
-String LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
+try {
+	String LoginTitle = WebUI.getText(findTestObject('Login/div_Login Successful'))
+	
+	'Verify the login success message and cofirm login '
+	WebUI.verifyMatch(LoginTitle, 'Login Successful!', true)
+} catch (Exception e) {
+	e.printStackTrace()
+}
 
-'Verify the login success message and cofirm login '
-WebUI.verifyMatch(LoginTitle, 'Login Successful!', true)
 
 WebUI.click(findTestObject('Login/div_Login Successful'))
 
