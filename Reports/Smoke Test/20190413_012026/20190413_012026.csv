@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 73.0.3683.103,,2019-04-13 01:20:29,2019-04-13 01:24:17,3m - 48.216s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.103,,2019-04-13 01:20:30,2019-04-13 01:20:45,15.318s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,Open Browser,2019-04-13 01:20:30,2019-04-13 01:20:35,4.537s,PASSED
+try,Chrome 73.0.3683.103,Hit URL to Browser,2019-04-13 01:20:35,2019-04-13 01:20:38,2.859s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,Maximize the browser tab,2019-04-13 01:20:38,2019-04-13 01:20:39,1.149s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:20:39,2019-04-13 01:20:41,2.048s,PASSED
+try,Chrome 73.0.3683.103,verify with title,2019-04-13 01:20:41,2019-04-13 01:20:41,0.053s,PASSED
+"setText(findTestObject(""Login/Enter Username""), username)",Chrome 73.0.3683.103,Enter input to user name,2019-04-13 01:20:41,2019-04-13 01:20:41,0.426s,PASSED
+"setText(findTestObject(""Login/Enter Password""), password)",Chrome 73.0.3683.103,Enter input to Password,2019-04-13 01:20:41,2019-04-13 01:20:42,0.234s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:42,2019-04-13 01:20:43,1.001s,PASSED
+try,Chrome 73.0.3683.103,Click on sumbit button,2019-04-13 01:20:43,2019-04-13 01:20:43,0.144s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:20:43,2019-04-13 01:20:45,2.003s,PASSED
+try,Chrome 73.0.3683.103,Get toaster message after getting login,2019-04-13 01:20:45,2019-04-13 01:20:45,0.127s,PASSED
+"click(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.103,,2019-04-13 01:20:45,2019-04-13 01:20:45,0.134s,PASSED
+,,,,,,
+Test Cases/Generate,Chrome 73.0.3683.103,"1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill",2019-04-13 01:20:45,2019-04-13 01:23:38,2m - 53.265s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-13 01:20:46,2019-04-13 01:20:49,3.004s,PASSED
+"click(findTestObject(""Generate/i_Vijeta Business Solution_fa fa-angle-double-right""))",Chrome 73.0.3683.103,Click on arrow for changing root business,2019-04-13 01:20:49,2019-04-13 01:20:49,0.166s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:49,2019-04-13 01:20:50,1.004s,PASSED
+"click(findTestObject(""Generate/li_Nands Group""))",Chrome 73.0.3683.103,click on requested busienss,2019-04-13 01:20:50,2019-04-13 01:20:50,0.139s,PASSED
+"changeBusienssMsg = getText(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.103,,2019-04-13 01:20:50,2019-04-13 01:20:50,0.589s,PASSED
+"verifyMatch(changeBusienssMsg, ""Business Changed Successfully."", true)",Chrome 73.0.3683.103,,2019-04-13 01:20:50,2019-04-13 01:20:50,0.002s,PASSED
+"click(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.103,,2019-04-13 01:20:50,2019-04-13 01:20:51,0.144s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:51,2019-04-13 01:20:52,1.005s,PASSED
+"click(findTestObject(""Generate/i_Nands Group_fa fa-angle-double-right""))",Chrome 73.0.3683.103,,2019-04-13 01:20:52,2019-04-13 01:20:52,0.143s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:52,2019-04-13 01:20:53,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands Business""))",Chrome 73.0.3683.103,,2019-04-13 01:20:53,2019-04-13 01:20:53,0.152s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:53,2019-04-13 01:20:54,1.004s,PASSED
+"click(findTestObject(""Generate/i_Nands Business_fa fa-angle-double-right""))",Chrome 73.0.3683.103,,2019-04-13 01:20:54,2019-04-13 01:20:54,0.097s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:54,2019-04-13 01:20:55,1.003s,PASSED
+"click(findTestObject(""Generate/li_Nands_Entity_1""))",Chrome 73.0.3683.103,,2019-04-13 01:20:55,2019-04-13 01:20:55,0.146s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:20:55,2019-04-13 01:20:56,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands Group_1""))",Chrome 73.0.3683.103,,2019-04-13 01:20:56,2019-04-13 01:20:56,0.133s,PASSED
+"for ([i = 0, i < 2, (i++)])",Chrome 73.0.3683.103,,2019-04-13 01:20:56,2019-04-13 01:23:38,2m - 41.953s,PASSED
+,,,,,,
+Test Cases/Update,Chrome 73.0.3683.103,,2019-04-13 01:23:38,2019-04-13 01:24:17,38.419s,PASSED
+"click(findTestObject(""Update/View Tab""))",Chrome 73.0.3683.103,,2019-04-13 01:23:39,2019-04-13 01:23:39,0.382s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:23:39,2019-04-13 01:23:41,2.003s,PASSED
+"EwayBillNo = utility.ReadFromExcel.Read(0, 2, 1)",Chrome 73.0.3683.103,,2019-04-13 01:23:41,2019-04-13 01:23:41,0.118s,PASSED
+"logInfo(""EwayBillNo:"" + EwayBillNo)",Chrome 73.0.3683.103,,2019-04-13 01:23:41,2019-04-13 01:23:41,0.000s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:41,2019-04-13 01:23:42,1.005s,PASSED
+"click(findTestObject(""Update/Enter EwayBill No. in Filter""))",Chrome 73.0.3683.103,,2019-04-13 01:23:42,2019-04-13 01:23:42,0.245s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:23:42,2019-04-13 01:23:44,2.004s,PASSED
+"setText(findTestObject(""Update/Enter EwayBill No. in Filter""), EwayBillNo)",Chrome 73.0.3683.103,,2019-04-13 01:23:44,2019-04-13 01:23:45,0.605s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:23:45,2019-04-13 01:23:47,2.006s,PASSED
+"sendKeys(findTestObject(""Update/Enter EwayBill No. in Filter""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-13 01:23:47,2019-04-13 01:23:47,0.139s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:23:47,2019-04-13 01:23:49,2.005s,PASSED
+"click(findTestObject(""Update/Checkbox againts eway bill""))",Chrome 73.0.3683.103,,2019-04-13 01:23:49,2019-04-13 01:23:49,0.204s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:49,2019-04-13 01:23:50,1.004s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.103,,2019-04-13 01:23:50,2019-04-13 01:23:50,0.052s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:50,2019-04-13 01:23:51,1.006s,PASSED
+"click(findTestObject(""Update/Update Part B button""))",Chrome 73.0.3683.103,,2019-04-13 01:23:51,2019-04-13 01:23:52,0.284s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:52,2019-04-13 01:23:53,1.001s,PASSED
+"click(findTestObject(""Update/Select Mode""))",Chrome 73.0.3683.103,,2019-04-13 01:23:53,2019-04-13 01:23:53,0.168s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:53,2019-04-13 01:23:54,1.004s,PASSED
+"setText(findTestObject(""Update/Enter From Place""), ""Mumbai"")",Chrome 73.0.3683.103,,2019-04-13 01:23:54,2019-04-13 01:23:54,0.228s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:54,2019-04-13 01:23:55,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Update/Select From State""), ""string:27"", true)",Chrome 73.0.3683.103,,2019-04-13 01:23:55,2019-04-13 01:23:56,1.118s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:56,2019-04-13 01:23:57,1.002s,PASSED
+"setText(findTestObject(""Update/Enter Vehical No""), ""MH04EX1020"")",Chrome 73.0.3683.103,,2019-04-13 01:23:57,2019-04-13 01:23:58,0.453s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:58,2019-04-13 01:23:59,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Update/Select Reason""), ""number:1"", true)",Chrome 73.0.3683.103,,2019-04-13 01:23:59,2019-04-13 01:23:59,0.255s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:23:59,2019-04-13 01:24:00,1.003s,PASSED
+"setText(findTestObject(""Update/Enter Remarks""), ""Internal Testing"")",Chrome 73.0.3683.103,,2019-04-13 01:24:00,2019-04-13 01:24:00,0.386s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:24:00,2019-04-13 01:24:02,2.001s,PASSED
+"click(findTestObject(""Update/Update Button""))",Chrome 73.0.3683.103,,2019-04-13 01:24:02,2019-04-13 01:24:02,0.189s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:02,2019-04-13 01:24:03,1.002s,PASSED
+"EwayBill = getText(findTestObject(""Update/EwayBill No""))",Chrome 73.0.3683.103,,2019-04-13 01:24:03,2019-04-13 01:24:04,0.171s,PASSED
+"logInfo(""Ewaybill : "" + EwayBill)",Chrome 73.0.3683.103,,2019-04-13 01:24:04,2019-04-13 01:24:04,0.000s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:04,2019-04-13 01:24:05,1.005s,PASSED
+"EwayBillValiDate = getText(findTestObject(""Update/EwayBill Validity Date""))",Chrome 73.0.3683.103,,2019-04-13 01:24:05,2019-04-13 01:24:05,0.103s,PASSED
+"logInfo(""EwaybillDate: "" + EwayBillValiDate)",Chrome 73.0.3683.103,,2019-04-13 01:24:05,2019-04-13 01:24:05,0.000s,PASSED
+"utility.WriteToExcel.Sd(EwayBillValiDate, 0, 2, 3)",Chrome 73.0.3683.103,,2019-04-13 01:24:05,2019-04-13 01:24:05,0.039s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:05,2019-04-13 01:24:06,1.001s,PASSED
+"click(findTestObject(""Update/Ok Button""))",Chrome 73.0.3683.103,,2019-04-13 01:24:06,2019-04-13 01:24:06,0.190s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:24:06,2019-04-13 01:24:08,2.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.103,,2019-04-13 01:24:08,2019-04-13 01:24:08,0.043s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:08,2019-04-13 01:24:09,1.004s,PASSED
+"click(findTestObject(""Update/BACK Button""))",Chrome 73.0.3683.103,,2019-04-13 01:24:09,2019-04-13 01:24:10,0.520s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:24:10,2019-04-13 01:24:12,2.001s,PASSED
+"click(findTestObject(""Update/Enter EwayBill No. in Filter""))",Chrome 73.0.3683.103,,2019-04-13 01:24:12,2019-04-13 01:24:12,0.167s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:12,2019-04-13 01:24:13,1.001s,PASSED
+"setText(findTestObject(""Update/Enter EwayBill No. in Filter""), EwayBill)",Chrome 73.0.3683.103,,2019-04-13 01:24:13,2019-04-13 01:24:13,0.541s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:13,2019-04-13 01:24:14,1.001s,PASSED
+"sendKeys(findTestObject(""Update/Enter EwayBill No. in Filter""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-13 01:24:14,2019-04-13 01:24:14,0.165s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:14,2019-04-13 01:24:15,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.103,,2019-04-13 01:24:15,2019-04-13 01:24:15,0.039s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:24:15,2019-04-13 01:24:16,1.006s,PASSED
+"status = getText(findTestObject(""Update/Check Status Active""))",Chrome 73.0.3683.103,,2019-04-13 01:24:16,2019-04-13 01:24:17,0.128s,PASSED
+"verifyMatch(status, ""ACTIVE"", true)",Chrome 73.0.3683.103,,2019-04-13 01:24:17,2019-04-13 01:24:17,0.000s,PASSED
+"logInfo(""Ewaybill Status: "" + status)",Chrome 73.0.3683.103,,2019-04-13 01:24:17,2019-04-13 01:24:17,0.007s,PASSED
+"utility.WriteToExcel.Sd(status, 0, 2, 4)",Chrome 73.0.3683.103,,2019-04-13 01:24:17,2019-04-13 01:24:17,0.063s,PASSED

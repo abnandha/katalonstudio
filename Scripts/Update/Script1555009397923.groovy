@@ -109,6 +109,9 @@ KeywordUtil.logInfo('Ewaybill Status: '+status)
 
 CustomKeywords.'utility.WriteToExcel.Sd'(status, 0, 2, 4)
 
+WebUI.delay(1)
+
+
 
 
 

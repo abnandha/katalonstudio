@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="184" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke Test" tests="2" failures="0" errors="0" time="184" timestamp="2019-04-13 01:53:50" hostname="Amitansh - DESKTOP-TMTUP2J" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_015348"/>
+         <property name="logFiles" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_015348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Amitansh - DESKTOP-TMTUP2J"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="a162e62e9af4640a7fd2c961042a6150"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-04-13 01:53:50 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-04-13 01:53:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-13 01:53:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-13 01:53:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-13 01:53:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-13 01:53:55 - [TEST_STEP][PASSED] - try: Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-13 01:53:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-13 01:53:58 - [MESSAGE][PASSED] - Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-13 01:53:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-13 01:53:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-13 01:53:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 01:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 01:54:01 - [TEST_STEP][PASSED] - try: Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-13 01:54:01 - [TEST_STEP][PASSED] - topazTitle = getWindowTitle(): Current window's title is: 'IRIS-TOPAZ'
+
+2019-04-13 01:54:01 - [MESSAGE][PASSED] - Current window's title is: 'IRIS-TOPAZ'
+
+2019-04-13 01:54:01 - [TEST_STEP][PASSED] - verifyMatch(topazTitle, "IRIS-TOPAZ", true): Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-13 01:54:01 - [MESSAGE][PASSED] - Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-13 01:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Enter Username"), username): Text 'amit.nandha@irisindia.net' is set on object 'Object Repository/Login/Enter Username'
+
+2019-04-13 01:54:01 - [MESSAGE][PASSED] - Text 'amit.nandha@irisindia.net' is set on object 'Object Repository/Login/Enter Username'
+
+2019-04-13 01:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Enter Password"), password): Text 'Abcd@12345' is set on object 'Object Repository/Login/Enter Password'
+
+2019-04-13 01:54:02 - [MESSAGE][PASSED] - Text 'Abcd@12345' is set on object 'Object Repository/Login/Enter Password'
+
+2019-04-13 01:54:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:03 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-13 01:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In button")): Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-13 01:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-13 01:54:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 01:54:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 01:54:05 - [TEST_STEP][PASSED] - try: Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-13 01:54:05 - [TEST_STEP][PASSED] - LoginTitle = getText(findTestObject("Login/div_Login Successful")): Text of object 'Object Repository/Login/div_Login Successful' is: 'Login Successful!'
+
+2019-04-13 01:54:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/div_Login Successful' is: 'Login Successful!'
+
+2019-04-13 01:54:05 - [TEST_STEP][PASSED] - verifyMatch(LoginTitle, "Login Successful!", true): Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-13 01:54:05 - [MESSAGE][PASSED] - Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-13 01:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/div_Login Successful")): Object: 'Object Repository/Login/div_Login Successful' is clicked on
+
+2019-04-13 01:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Login Successful' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generate" classname="Test Cases/Generate" status="PASSED">
+         <system-out><![CDATA[2019-04-13 01:54:05 - [TEST_CASE][PASSED] - Test Cases/Generate: Test Cases/Generate
+
+2019-04-13 01:54:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 01:54:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 01:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Generate/i_Vijeta Business Solution_fa fa-angle-double-right")): Object: 'Object Repository/Generate/i_Vijeta Business Solution_fa fa-angle-double-right' is clicked on
+
+2019-04-13 01:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/i_Vijeta Business Solution_fa fa-angle-double-right' is clicked on
+
+2019-04-13 01:54:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands Group")): Object: 'Object Repository/Generate/li_Nands Group' is clicked on
+
+2019-04-13 01:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands Group' is clicked on
+
+2019-04-13 01:54:10 - [TEST_STEP][PASSED] - changeBusienssMsg = getText(findTestObject("Generate/div_Business Changed Successfully")): Text of object 'Object Repository/Generate/div_Business Changed Successfully' is: 'Business Changed Successfully.'
+
+2019-04-13 01:54:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/div_Business Changed Successfully' is: 'Business Changed Successfully.'
+
+2019-04-13 01:54:10 - [TEST_STEP][PASSED] - verifyMatch(changeBusienssMsg, "Business Changed Successfully.", true): Actual text 'Business Changed Successfully.' and expected text 'Business Changed Successfully.' are matched  using regular expression
+
+2019-04-13 01:54:10 - [MESSAGE][PASSED] - Actual text 'Business Changed Successfully.' and expected text 'Business Changed Successfully.' are matched  using regular expression
+
+2019-04-13 01:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Generate/div_Business Changed Successfully")): Object: 'Object Repository/Generate/div_Business Changed Successfully' is clicked on
+
+2019-04-13 01:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/div_Business Changed Successfully' is clicked on
+
+2019-04-13 01:54:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Generate/i_Nands Group_fa fa-angle-double-right")): Object: 'Object Repository/Generate/i_Nands Group_fa fa-angle-double-right' is clicked on
+
+2019-04-13 01:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/i_Nands Group_fa fa-angle-double-right' is clicked on
+
+2019-04-13 01:54:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands Business")): Object: 'Object Repository/Generate/li_Nands Business' is clicked on
+
+2019-04-13 01:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands Business' is clicked on
+
+2019-04-13 01:54:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Generate/i_Nands Business_fa fa-angle-double-right")): Object: 'Object Repository/Generate/i_Nands Business_fa fa-angle-double-right' is clicked on
+
+2019-04-13 01:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/i_Nands Business_fa fa-angle-double-right' is clicked on
+
+2019-04-13 01:54:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands_Entity_1")): Object: 'Object Repository/Generate/li_Nands_Entity_1' is clicked on
+
+2019-04-13 01:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands_Entity_1' is clicked on
+
+2019-04-13 01:54:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands Group_1")): Object: 'Object Repository/Generate/li_Nands Group_1' is clicked on
+
+2019-04-13 01:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands Group_1' is clicked on
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - r = 1: null
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - c = 2: null
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - for ([i = 0, i < 2, (i++)]): Refresh successfully
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - r = r + i: null
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - println("r = " + r): null
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - c = c + i: null
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - println("c = " + c): null
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Tab")): Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 01:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 01:54:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 01:54:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 01:54:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:54:20 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:54:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:54:21 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:54:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:54:22 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:54:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:54:24 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:54:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:25 - [TEST_STEP][PASSED] - docNo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:54:25 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:54:25 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docNo): Text '79112120' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:54:25 - [MESSAGE][PASSED] - Text '79112120' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:54:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:26 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docNo, 0, r, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:27 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:54:29 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:54:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:54:30 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:54:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:54:31 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:54:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:54:32 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:54:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:54:34 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:54:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:54:35 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:54:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:36 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:54:36 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:54:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:54:37 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:54:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:54:39 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:54:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:54:40 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:54:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:54:42 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:54:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:43 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:54:43 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:54:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Trans mode"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 01:54:44 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 01:54:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Vehical No"), "MH02EX3636"): Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 01:54:46 - [MESSAGE][PASSED] - Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 01:54:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:47 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:54:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - MsgGen = getText(findTestObject("Generate/Msg Generated Successfully")): Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - verifyMatch(MsgGen, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - ewayBillNo = getText(findTestObject("Generate/Eway bill number")): Text of object 'Object Repository/Generate/Eway bill number' is: '381001758681'
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill number' is: '381001758681'
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNo, 0, r, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - EwayBillDate = getText(findTestObject("Generate/Eway Bill date")): Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 01:54:46 AM'
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 01:54:46 AM'
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDate, 0, r, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - EwayValidityDate = getText(findTestObject("Generate/Eway bill Validity date")): Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayValidityDate, 0, r, 3): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - EwayBillStatus = getText(findTestObject("Generate/Eway Bill Status")): Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatus, "ACTIVE", true): Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatus, 0, r, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - (r++): null
+
+2019-04-13 01:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Another button")): Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 01:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 01:54:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 01:54:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 01:54:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:54:56 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:54:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:54:57 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:54:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:54:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:54:58 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:54:59 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:54:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:55:00 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:55:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:01 - [TEST_STEP][PASSED] - docnoo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:55:01 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:55:01 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docnoo): Text '17750795' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:55:01 - [MESSAGE][PASSED] - Text '17750795' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:55:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:02 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docnoo, 0, c, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:02 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:55:04 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:55:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:55:05 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:55:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:55:06 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:55:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:55:08 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:55:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:09 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:55:09 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:55:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:10 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:55:10 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:55:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:11 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:55:12 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:55:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:55:13 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:55:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:55:14 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:55:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:55:16 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:55:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:55:17 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:55:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:18 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:55:18 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:55:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:19 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Transporter ID"), "05AAAAU1183B1Z0"): Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 01:55:20 - [MESSAGE][PASSED] - Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 01:55:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:55:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 01:55:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 01:55:26 - [TEST_STEP][PASSED] - MsgGenn = getText(findTestObject("Generate/Message for not active")): Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 01:55:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 01:55:26 - [TEST_STEP][PASSED] - verifyMatch(MsgGenn, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:55:26 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:55:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:27 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Msg_GSTIN is valid")): Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 01:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 01:55:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:28 - [TEST_STEP][PASSED] - ewayBillNoo = getText(findTestObject("Generate/EwayBill number - Active Invalid")): Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '351001758682'
+
+2019-04-13 01:55:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '351001758682'
+
+2019-04-13 01:55:28 - [TEST_STEP][PASSED] - logInfo("ewayBillNoo:" + ewayBillNoo): ewayBillNoo:351001758682
+
+2019-04-13 01:55:28 - [MESSAGE][INFO] - ewayBillNoo:351001758682
+
+2019-04-13 01:55:28 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNoo, 0, c, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:28 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:29 - [TEST_STEP][PASSED] - EwayBillDatee = getText(findTestObject("Generate/EWB Date - Active Invalid")): Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 01:55:20 AM'
+
+2019-04-13 01:55:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 01:55:20 AM'
+
+2019-04-13 01:55:30 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDatee, 0, c, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:30 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:31 - [TEST_STEP][PASSED] - EwayBillStatuss = getText(findTestObject("Generate/Status - Active not yet valid")): Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 01:55:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 01:55:31 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatuss, "ACTIVE NOT YET VALID", true): Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 01:55:31 - [MESSAGE][PASSED] - Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 01:55:31 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatuss, 0, c, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:31 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:31 - [TEST_STEP][PASSED] - (c++): null
+
+2019-04-13 01:55:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 01:55:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 01:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Cancel icon")): Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 01:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 01:55:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 01:55:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 01:55:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-04-13 01:55:36 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-13 01:55:36 - [TEST_STEP][PASSED] - r = r + i: null
+
+2019-04-13 01:55:36 - [TEST_STEP][PASSED] - println("r = " + r): null
+
+2019-04-13 01:55:36 - [TEST_STEP][PASSED] - c = c + i: null
+
+2019-04-13 01:55:36 - [TEST_STEP][PASSED] - println("c = " + c): null
+
+2019-04-13 01:55:36 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Tab")): Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 01:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 01:55:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 01:55:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 01:55:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:55:40 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:55:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:55:41 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:55:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:55:42 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:55:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:55:43 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:55:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:44 - [TEST_STEP][PASSED] - docNo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:55:44 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:55:44 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docNo): Text '26587173' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:55:45 - [MESSAGE][PASSED] - Text '26587173' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:55:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:46 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docNo, 0, r, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:46 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:55:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:55:47 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:55:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:48 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:55:48 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:55:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:55:50 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:55:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:55:51 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:55:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:52 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:55:52 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:55:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:53 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:55:53 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:55:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:54 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:55:55 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:55:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:55:56 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:55:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:55:57 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:55:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:55:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:55:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:55:59 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:55:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:56:00 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:56:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:01 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:56:01 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:56:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Trans mode"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 01:56:02 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 01:56:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:03 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Vehical No"), "MH02EX3636"): Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 01:56:04 - [MESSAGE][PASSED] - Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 01:56:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:56:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - MsgGen = getText(findTestObject("Generate/Msg Generated Successfully")): Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - verifyMatch(MsgGen, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - ewayBillNo = getText(findTestObject("Generate/Eway bill number")): Text of object 'Object Repository/Generate/Eway bill number' is: '321001758683'
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill number' is: '321001758683'
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNo, 0, r, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - EwayBillDate = getText(findTestObject("Generate/Eway Bill date")): Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 01:56:04 AM'
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 01:56:04 AM'
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDate, 0, r, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - EwayValidityDate = getText(findTestObject("Generate/Eway bill Validity date")): Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayValidityDate, 0, r, 3): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - EwayBillStatus = getText(findTestObject("Generate/Eway Bill Status")): Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatus, "ACTIVE", true): Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatus, 0, r, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - (r++): null
+
+2019-04-13 01:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Another button")): Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 01:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 01:56:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 01:56:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 01:56:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:56:14 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 01:56:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:56:15 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 01:56:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:16 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:56:17 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 01:56:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:56:18 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 01:56:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:19 - [TEST_STEP][PASSED] - docnoo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:56:19 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 01:56:19 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docnoo): Text '84097447' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:56:19 - [MESSAGE][PASSED] - Text '84097447' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 01:56:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:20 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docnoo, 0, c, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:20 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:56:21 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 01:56:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:56:23 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 01:56:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:56:24 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 01:56:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:56:25 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 01:56:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:26 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:56:26 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 01:56:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:27 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:56:28 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 01:56:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:29 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:56:29 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 01:56:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:56:30 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 01:56:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:56:31 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 01:56:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:56:33 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 01:56:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:56:34 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 01:56:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:56:35 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 01:56:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Transporter ID"), "05AAAAU1183B1Z0"): Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 01:56:37 - [MESSAGE][PASSED] - Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 01:56:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 01:56:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 01:56:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 01:56:43 - [TEST_STEP][PASSED] - MsgGenn = getText(findTestObject("Generate/Message for not active")): Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 01:56:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 01:56:43 - [TEST_STEP][PASSED] - verifyMatch(MsgGenn, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:56:43 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 01:56:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Msg_GSTIN is valid")): Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 01:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 01:56:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:45 - [TEST_STEP][PASSED] - ewayBillNoo = getText(findTestObject("Generate/EwayBill number - Active Invalid")): Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '391001758684'
+
+2019-04-13 01:56:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '391001758684'
+
+2019-04-13 01:56:45 - [TEST_STEP][PASSED] - logInfo("ewayBillNoo:" + ewayBillNoo): ewayBillNoo:391001758684
+
+2019-04-13 01:56:45 - [MESSAGE][INFO] - ewayBillNoo:391001758684
+
+2019-04-13 01:56:45 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNoo, 0, c, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:45 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:46 - [TEST_STEP][PASSED] - EwayBillDatee = getText(findTestObject("Generate/EWB Date - Active Invalid")): Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 01:56:37 AM'
+
+2019-04-13 01:56:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 01:56:37 AM'
+
+2019-04-13 01:56:46 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDatee, 0, c, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:46 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 01:56:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 01:56:47 - [TEST_STEP][PASSED] - EwayBillStatuss = getText(findTestObject("Generate/Status - Active not yet valid")): Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 01:56:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 01:56:48 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatuss, "ACTIVE NOT YET VALID", true): Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 01:56:48 - [MESSAGE][PASSED] - Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 01:56:48 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatuss, 0, c, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:48 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 01:56:48 - [TEST_STEP][PASSED] - (c++): null
+
+2019-04-13 01:56:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 01:56:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 01:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Cancel icon")): Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 01:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 01:56:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 01:56:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 01:56:52 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-04-13 01:56:53 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-13 01:53:50 - [TEST_SUITE][PASSED] - Smoke Test: Test Cases/Generate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

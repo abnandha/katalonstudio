@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Chrome 73.0.3683.103,,2019-04-13 01:53:50,2019-04-13 01:56:54,3m - 4.185s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.103,,2019-04-13 01:53:50,2019-04-13 01:54:05,14.754s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,Open Browser,2019-04-13 01:53:51,2019-04-13 01:53:55,3.778s,PASSED
+try,Chrome 73.0.3683.103,Hit URL to Browser,2019-04-13 01:53:55,2019-04-13 01:53:58,3.080s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,Maximize the browser tab,2019-04-13 01:53:58,2019-04-13 01:53:59,1.179s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:53:59,2019-04-13 01:54:01,2.046s,PASSED
+try,Chrome 73.0.3683.103,verify with title,2019-04-13 01:54:01,2019-04-13 01:54:01,0.061s,PASSED
+"setText(findTestObject(""Login/Enter Username""), username)",Chrome 73.0.3683.103,Enter input to user name,2019-04-13 01:54:01,2019-04-13 01:54:01,0.405s,PASSED
+"setText(findTestObject(""Login/Enter Password""), password)",Chrome 73.0.3683.103,Enter input to Password,2019-04-13 01:54:01,2019-04-13 01:54:02,0.196s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:02,2019-04-13 01:54:03,1.004s,PASSED
+try,Chrome 73.0.3683.103,Click on sumbit button,2019-04-13 01:54:03,2019-04-13 01:54:03,0.131s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-13 01:54:03,2019-04-13 01:54:05,2.006s,PASSED
+try,Chrome 73.0.3683.103,Get toaster message after getting login,2019-04-13 01:54:05,2019-04-13 01:54:05,0.116s,PASSED
+"click(findTestObject(""Login/div_Login Successful""))",Chrome 73.0.3683.103,,2019-04-13 01:54:05,2019-04-13 01:54:05,0.187s,PASSED
+,,,,,,
+Test Cases/Generate,Chrome 73.0.3683.103,"1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill",2019-04-13 01:54:05,2019-04-13 01:56:53,2m - 48.233s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-13 01:54:06,2019-04-13 01:54:09,3.006s,PASSED
+"click(findTestObject(""Generate/i_Vijeta Business Solution_fa fa-angle-double-right""))",Chrome 73.0.3683.103,Click on arrow for changing root business,2019-04-13 01:54:09,2019-04-13 01:54:09,0.091s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:09,2019-04-13 01:54:10,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands Group""))",Chrome 73.0.3683.103,click on requested busienss,2019-04-13 01:54:10,2019-04-13 01:54:10,0.113s,PASSED
+"changeBusienssMsg = getText(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.103,,2019-04-13 01:54:10,2019-04-13 01:54:10,0.562s,PASSED
+"verifyMatch(changeBusienssMsg, ""Business Changed Successfully."", true)",Chrome 73.0.3683.103,,2019-04-13 01:54:10,2019-04-13 01:54:10,0.004s,PASSED
+"click(findTestObject(""Generate/div_Business Changed Successfully""))",Chrome 73.0.3683.103,,2019-04-13 01:54:10,2019-04-13 01:54:10,0.085s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:10,2019-04-13 01:54:11,1.005s,PASSED
+"click(findTestObject(""Generate/i_Nands Group_fa fa-angle-double-right""))",Chrome 73.0.3683.103,,2019-04-13 01:54:11,2019-04-13 01:54:12,0.103s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:12,2019-04-13 01:54:13,1.006s,PASSED
+"click(findTestObject(""Generate/li_Nands Business""))",Chrome 73.0.3683.103,,2019-04-13 01:54:13,2019-04-13 01:54:13,0.114s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:13,2019-04-13 01:54:14,1.004s,PASSED
+"click(findTestObject(""Generate/i_Nands Business_fa fa-angle-double-right""))",Chrome 73.0.3683.103,,2019-04-13 01:54:14,2019-04-13 01:54:14,0.122s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:14,2019-04-13 01:54:15,1.004s,PASSED
+"click(findTestObject(""Generate/li_Nands_Entity_1""))",Chrome 73.0.3683.103,,2019-04-13 01:54:15,2019-04-13 01:54:15,0.101s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-13 01:54:15,2019-04-13 01:54:16,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands Group_1""))",Chrome 73.0.3683.103,,2019-04-13 01:54:16,2019-04-13 01:54:16,0.119s,PASSED
+r = 1,Chrome 73.0.3683.103,,2019-04-13 01:54:16,2019-04-13 01:54:16,0.001s,PASSED
+c = 2,Chrome 73.0.3683.103,,2019-04-13 01:54:16,2019-04-13 01:54:16,0.001s,PASSED
+"for ([i = 0, i < 2, (i++)])",Chrome 73.0.3683.103,,2019-04-13 01:54:16,2019-04-13 01:56:53,2m - 37.277s,PASSED

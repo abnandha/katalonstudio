@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancel Eway Bill</description>
+   <name>Cancel</name>
+   <tag>Cancel</tag>
+   <comment></comment>
+   <testCaseGuid>cb009d94-9fc9-4e76-b217-f0acea79dabd</testCaseGuid>
+</TestCaseEntity>

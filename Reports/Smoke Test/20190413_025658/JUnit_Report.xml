@@ -1,0 +1,2565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test" time="436" tests="3" failures="1" errors="0">
+   <testsuite name="Smoke Test" tests="3" failures="1" errors="0" time="436" timestamp="2019-04-13 02:57:00" hostname="Amitansh - DESKTOP-TMTUP2J" id="Test Suites/Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658"/>
+         <property name="logFiles" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104679428.png, C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104713091.png, C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104745744.png, C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104779138.png, C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104811202.png, C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104843257.png"/>
+         <property name="hostName" value="Amitansh - DESKTOP-TMTUP2J"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="52cf71fabd6cf9ffae5f58fe878c26b7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-04-13 02:57:00 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-04-13 02:57:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-13 02:57:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-13 02:57:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-13 02:57:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-13 02:57:04 - [TEST_STEP][PASSED] - try: Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-13 02:57:04 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-13 02:57:07 - [MESSAGE][PASSED] - Navigate to 'https://dev.esp.irisgst.com/' successfully
+
+2019-04-13 02:57:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-13 02:57:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-13 02:57:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 02:57:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 02:57:10 - [TEST_STEP][PASSED] - try: Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-13 02:57:10 - [TEST_STEP][PASSED] - topazTitle = getWindowTitle(): Current window's title is: 'IRIS-TOPAZ'
+
+2019-04-13 02:57:10 - [MESSAGE][PASSED] - Current window's title is: 'IRIS-TOPAZ'
+
+2019-04-13 02:57:10 - [TEST_STEP][PASSED] - verifyMatch(topazTitle, "IRIS-TOPAZ", true): Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-13 02:57:10 - [MESSAGE][PASSED] - Actual text 'IRIS-TOPAZ' and expected text 'IRIS-TOPAZ' are matched  using regular expression
+
+2019-04-13 02:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Enter Username"), username): Text 'amit.nandha@irisindia.net' is set on object 'Object Repository/Login/Enter Username'
+
+2019-04-13 02:57:11 - [MESSAGE][PASSED] - Text 'amit.nandha@irisindia.net' is set on object 'Object Repository/Login/Enter Username'
+
+2019-04-13 02:57:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Enter Password"), password): Text 'Abcd@12345' is set on object 'Object Repository/Login/Enter Password'
+
+2019-04-13 02:57:11 - [MESSAGE][PASSED] - Text 'Abcd@12345' is set on object 'Object Repository/Login/Enter Password'
+
+2019-04-13 02:57:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:12 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-13 02:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/Sign In button")): Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-13 02:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Sign In button' is clicked on
+
+2019-04-13 02:57:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 02:57:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 02:57:14 - [TEST_STEP][PASSED] - try: Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-13 02:57:14 - [TEST_STEP][PASSED] - LoginTitle = getText(findTestObject("Login/div_Login Successful")): Text of object 'Object Repository/Login/div_Login Successful' is: 'Login Successful!'
+
+2019-04-13 02:57:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login/div_Login Successful' is: 'Login Successful!'
+
+2019-04-13 02:57:14 - [TEST_STEP][PASSED] - verifyMatch(LoginTitle, "Login Successful!", true): Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-13 02:57:14 - [MESSAGE][PASSED] - Actual text 'Login Successful!' and expected text 'Login Successful!' are matched  using regular expression
+
+2019-04-13 02:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/div_Login Successful")): Object: 'Object Repository/Login/div_Login Successful' is clicked on
+
+2019-04-13 02:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Login Successful' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Generate" classname="Test Cases/Generate" status="PASSED">
+         <system-out><![CDATA[2019-04-13 02:57:14 - [TEST_CASE][PASSED] - Test Cases/Generate: Test Cases/Generate
+
+2019-04-13 02:57:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 02:57:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 02:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Generate/i_Vijeta Business Solution_fa fa-angle-double-right")): Object: 'Object Repository/Generate/i_Vijeta Business Solution_fa fa-angle-double-right' is clicked on
+
+2019-04-13 02:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/i_Vijeta Business Solution_fa fa-angle-double-right' is clicked on
+
+2019-04-13 02:57:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands Group")): Object: 'Object Repository/Generate/li_Nands Group' is clicked on
+
+2019-04-13 02:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands Group' is clicked on
+
+2019-04-13 02:57:19 - [TEST_STEP][PASSED] - changeBusienssMsg = getText(findTestObject("Generate/div_Business Changed Successfully")): Text of object 'Object Repository/Generate/div_Business Changed Successfully' is: 'Business Changed Successfully.'
+
+2019-04-13 02:57:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/div_Business Changed Successfully' is: 'Business Changed Successfully.'
+
+2019-04-13 02:57:20 - [TEST_STEP][PASSED] - verifyMatch(changeBusienssMsg, "Business Changed Successfully.", true): Actual text 'Business Changed Successfully.' and expected text 'Business Changed Successfully.' are matched  using regular expression
+
+2019-04-13 02:57:20 - [MESSAGE][PASSED] - Actual text 'Business Changed Successfully.' and expected text 'Business Changed Successfully.' are matched  using regular expression
+
+2019-04-13 02:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Generate/div_Business Changed Successfully")): Object: 'Object Repository/Generate/div_Business Changed Successfully' is clicked on
+
+2019-04-13 02:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/div_Business Changed Successfully' is clicked on
+
+2019-04-13 02:57:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Generate/i_Nands Group_fa fa-angle-double-right")): Object: 'Object Repository/Generate/i_Nands Group_fa fa-angle-double-right' is clicked on
+
+2019-04-13 02:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/i_Nands Group_fa fa-angle-double-right' is clicked on
+
+2019-04-13 02:57:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands Business")): Object: 'Object Repository/Generate/li_Nands Business' is clicked on
+
+2019-04-13 02:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands Business' is clicked on
+
+2019-04-13 02:57:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Generate/i_Nands Business_fa fa-angle-double-right")): Object: 'Object Repository/Generate/i_Nands Business_fa fa-angle-double-right' is clicked on
+
+2019-04-13 02:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/i_Nands Business_fa fa-angle-double-right' is clicked on
+
+2019-04-13 02:57:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands_Entity_1")): Object: 'Object Repository/Generate/li_Nands_Entity_1' is clicked on
+
+2019-04-13 02:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands_Entity_1' is clicked on
+
+2019-04-13 02:57:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Generate/li_Nands Group_1")): Object: 'Object Repository/Generate/li_Nands Group_1' is clicked on
+
+2019-04-13 02:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/li_Nands Group_1' is clicked on
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - r = 1: null
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - c = 2: null
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - for ([i = 0, i < 2, (i++)]): Refresh successfully
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - r = r + i: null
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - println("r = " + r): null
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - c = c + i: null
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - println("c = " + c): null
+
+2019-04-13 02:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Tab")): Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 02:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 02:57:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 02:57:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 02:57:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:57:29 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:57:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:57:30 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:57:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:57:32 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:57:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:57:33 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:57:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:34 - [TEST_STEP][PASSED] - docNo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:57:34 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docNo): Text '37396936' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:57:34 - [MESSAGE][PASSED] - Text '37396936' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:57:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:35 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docNo, 0, r, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:57:36 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:57:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:57:38 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:57:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:57:39 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:57:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:57:41 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:57:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:57:42 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:57:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:57:43 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:57:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:57:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:57:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:45 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:57:45 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:57:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:57:47 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:57:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:57:48 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:57:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:57:49 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:57:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:57:51 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:57:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:57:52 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:57:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Trans mode"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 02:57:53 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 02:57:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Vehical No"), "MH02EX3636"): Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 02:57:55 - [MESSAGE][PASSED] - Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 02:57:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:57:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:57:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - MsgGen = getText(findTestObject("Generate/Msg Generated Successfully")): Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - verifyMatch(MsgGen, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - ewayBillNo = getText(findTestObject("Generate/Eway bill number")): Text of object 'Object Repository/Generate/Eway bill number' is: '331001758699'
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill number' is: '331001758699'
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNo, 0, r, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - EwayBillDate = getText(findTestObject("Generate/Eway Bill date")): Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 02:57:55 AM'
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 02:57:55 AM'
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDate, 0, r, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - EwayValidityDate = getText(findTestObject("Generate/Eway bill Validity date")): Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayValidityDate, 0, r, 3): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - EwayBillStatus = getText(findTestObject("Generate/Eway Bill Status")): Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatus, "ACTIVE", true): Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatus, 0, r, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - (r++): null
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Another button")): Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 02:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 02:58:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 02:58:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 02:58:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:58:05 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:58:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:58:06 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:58:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:58:07 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:58:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:58:08 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:58:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:09 - [TEST_STEP][PASSED] - docnoo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:58:09 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:58:09 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docnoo): Text '18469041' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:58:10 - [MESSAGE][PASSED] - Text '18469041' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:58:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:11 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docnoo, 0, c, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:11 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:58:12 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:58:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:13 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:58:13 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:58:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:58:15 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:58:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:58:16 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:58:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:58:17 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:58:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:58:18 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:58:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:58:19 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:58:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:58:21 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:58:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:58:22 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:58:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:58:23 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:58:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:58:25 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:58:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:58:26 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:58:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Transporter ID"), "05AAAAU1183B1Z0"): Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 02:58:27 - [MESSAGE][PASSED] - Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 02:58:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:58:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 02:58:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 02:58:34 - [TEST_STEP][PASSED] - MsgGenn = getText(findTestObject("Generate/Message for not active")): Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 02:58:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 02:58:34 - [TEST_STEP][PASSED] - verifyMatch(MsgGenn, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:58:34 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:58:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Msg_GSTIN is valid")): Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 02:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 02:58:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:36 - [TEST_STEP][PASSED] - ewayBillNoo = getText(findTestObject("Generate/EwayBill number - Active Invalid")): Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '361001758700'
+
+2019-04-13 02:58:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '361001758700'
+
+2019-04-13 02:58:36 - [TEST_STEP][PASSED] - logInfo("ewayBillNoo:" + ewayBillNoo): ewayBillNoo:361001758700
+
+2019-04-13 02:58:36 - [MESSAGE][INFO] - ewayBillNoo:361001758700
+
+2019-04-13 02:58:36 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNoo, 0, c, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:36 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:37 - [TEST_STEP][PASSED] - EwayBillDatee = getText(findTestObject("Generate/EWB Date - Active Invalid")): Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 02:58:28 AM'
+
+2019-04-13 02:58:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 02:58:28 AM'
+
+2019-04-13 02:58:37 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDatee, 0, c, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:37 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:38 - [TEST_STEP][PASSED] - EwayBillStatuss = getText(findTestObject("Generate/Status - Active not yet valid")): Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 02:58:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 02:58:38 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatuss, "ACTIVE NOT YET VALID", true): Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 02:58:38 - [MESSAGE][PASSED] - Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 02:58:38 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatuss, 0, c, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:38 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:38 - [TEST_STEP][PASSED] - (c++): null
+
+2019-04-13 02:58:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 02:58:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 02:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Cancel icon")): Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 02:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 02:58:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 02:58:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 02:58:42 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-04-13 02:58:44 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-13 02:58:44 - [TEST_STEP][PASSED] - r = r + i: null
+
+2019-04-13 02:58:44 - [TEST_STEP][PASSED] - println("r = " + r): null
+
+2019-04-13 02:58:44 - [TEST_STEP][PASSED] - c = c + i: null
+
+2019-04-13 02:58:44 - [TEST_STEP][PASSED] - println("c = " + c): null
+
+2019-04-13 02:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Tab")): Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 02:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Tab' is clicked on
+
+2019-04-13 02:58:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 02:58:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 02:58:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:58:47 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:58:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:58:48 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:58:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:49 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:58:50 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:58:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:58:51 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:58:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:52 - [TEST_STEP][PASSED] - docNo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:58:52 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:58:52 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docNo): Text '44635036' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:58:52 - [MESSAGE][PASSED] - Text '44635036' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:58:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:53 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docNo, 0, r, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:53 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:58:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:58:55 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:58:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:58:56 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:58:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:58:57 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:58:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:58:58 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:58:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:58:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:59:00 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:59:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:01 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:59:01 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:59:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:59:02 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:59:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:59:03 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:59:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:59:05 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:59:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:59:06 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:59:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:59:07 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:59:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:59:09 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:59:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Trans mode"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 02:59:10 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Trans mode'  using regular expression
+
+2019-04-13 02:59:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:11 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Vehical No"), "MH02EX3636"): Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 02:59:11 - [MESSAGE][PASSED] - Text 'MH02EX3636' is set on object 'Object Repository/Generate/Enter Vehical No'
+
+2019-04-13 02:59:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:12 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:59:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 02:59:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 02:59:17 - [TEST_STEP][PASSED] - MsgGen = getText(findTestObject("Generate/Msg Generated Successfully")): Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 02:59:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Msg Generated Successfully' is: 'Generated Successfully'
+
+2019-04-13 02:59:17 - [TEST_STEP][PASSED] - verifyMatch(MsgGen, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:59:17 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:59:17 - [TEST_STEP][PASSED] - ewayBillNo = getText(findTestObject("Generate/Eway bill number")): Text of object 'Object Repository/Generate/Eway bill number' is: '331001758701'
+
+2019-04-13 02:59:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill number' is: '331001758701'
+
+2019-04-13 02:59:17 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNo, 0, r, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:17 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:17 - [TEST_STEP][PASSED] - EwayBillDate = getText(findTestObject("Generate/Eway Bill date")): Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 02:59:11 AM'
+
+2019-04-13 02:59:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill date' is: '13/04/2019 02:59:11 AM'
+
+2019-04-13 02:59:17 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDate, 0, r, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - EwayValidityDate = getText(findTestObject("Generate/Eway bill Validity date")): Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway bill Validity date' is: '14/04/2019 11:59:00 AM'
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayValidityDate, 0, r, 3): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - EwayBillStatus = getText(findTestObject("Generate/Eway Bill Status")): Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Eway Bill Status' is: 'ACTIVE'
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatus, "ACTIVE", true): Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatus, 0, r, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - (r++): null
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Generate Another button")): Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 02:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Generate Another button' is clicked on
+
+2019-04-13 02:59:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-13 02:59:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-13 02:59:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Transaction Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:59:21 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Transaction Type'  using regular expression
+
+2019-04-13 02:59:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Sub Supply Type"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:59:22 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Generate/Select Sub Supply Type'  using regular expression
+
+2019-04-13 02:59:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:23 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Sub-supply type Description"), "SubSupplyDescription"): Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:59:24 - [MESSAGE][PASSED] - Text 'SubSupplyDescription' is set on object 'Object Repository/Generate/Enter Sub-supply type Description'
+
+2019-04-13 02:59:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Document Type"), "string:INV", true): All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:59:25 - [MESSAGE][PASSED] - All options with value 'string:INV' are selected in object 'Object Repository/Generate/Select Document Type'  using regular expression
+
+2019-04-13 02:59:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:26 - [TEST_STEP][PASSED] - docnoo = utility.randomNumber.rendomNo(8): utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:59:26 - [MESSAGE][PASSED] - utility.randomNumber.rendomNo is PASSED
+
+2019-04-13 02:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Document Number"), docnoo): Text '35184292' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:59:26 - [MESSAGE][PASSED] - Text '35184292' is set on object 'Object Repository/Generate/Enter Document Number'
+
+2019-04-13 02:59:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:27 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(docnoo, 0, c, 0): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:27 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Invoice Type"), "string:B2B", true): All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:59:29 - [MESSAGE][PASSED] - All options with value 'string:B2B' are selected in object 'Object Repository/Generate/Select Invoice Type'  using regular expression
+
+2019-04-13 02:59:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Invoice Ref Number"), "REFINV001"): Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:59:30 - [MESSAGE][PASSED] - Text 'REFINV001' is set on object 'Object Repository/Generate/Enter Invoice Ref Number'
+
+2019-04-13 02:59:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Supplier address"), "number:7363", true): All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:59:31 - [MESSAGE][PASSED] - All options with value 'number:7363' are selected in object 'Object Repository/Generate/Select Supplier address'  using regular expression
+
+2019-04-13 02:59:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Recepient address"), "number:548", true): All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:59:32 - [MESSAGE][PASSED] - All options with value 'number:548' are selected in object 'Object Repository/Generate/Select Recepient address'  using regular expression
+
+2019-04-13 02:59:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter HSN code"), "88"): Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:59:34 - [MESSAGE][PASSED] - Text '88' is set on object 'Object Repository/Generate/Enter HSN code'
+
+2019-04-13 02:59:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Taxable Value"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:59:35 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Taxable Value'
+
+2019-04-13 02:59:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Quantity"), "1"): Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:59:36 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Generate/Enter Quantity'
+
+2019-04-13 02:59:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select CGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:59:37 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select CGST Rate'  using regular expression
+
+2019-04-13 02:59:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select SGST Rate"), "string:1.50", true): All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:59:39 - [MESSAGE][PASSED] - All options with value 'string:1.50' are selected in object 'Object Repository/Generate/Select SGST Rate'  using regular expression
+
+2019-04-13 02:59:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Advol"), "string:3", true): All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:59:40 - [MESSAGE][PASSED] - All options with value 'string:3' are selected in object 'Object Repository/Generate/Select Cess Advol'  using regular expression
+
+2019-04-13 02:59:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Generate/Select Cess Non Advol"), "number:400", true): All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:59:41 - [MESSAGE][PASSED] - All options with value 'number:400' are selected in object 'Object Repository/Generate/Select Cess Non Advol'  using regular expression
+
+2019-04-13 02:59:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:42 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Distance"), "100"): Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:59:43 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Generate/Enter Distance'
+
+2019-04-13 02:59:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("Generate/Enter Transporter ID"), "05AAAAU1183B1Z0"): Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 02:59:44 - [MESSAGE][PASSED] - Text '05AAAAU1183B1Z0' is set on object 'Object Repository/Generate/Enter Transporter ID'
+
+2019-04-13 02:59:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Sumbit Button")): Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Sumbit Button' is clicked on
+
+2019-04-13 02:59:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-13 02:59:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-13 02:59:50 - [TEST_STEP][PASSED] - MsgGenn = getText(findTestObject("Generate/Message for not active")): Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 02:59:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Message for not active' is: 'Generated Successfully'
+
+2019-04-13 02:59:50 - [TEST_STEP][PASSED] - verifyMatch(MsgGenn, "Generated Successfully", true): Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:59:50 - [MESSAGE][PASSED] - Actual text 'Generated Successfully' and expected text 'Generated Successfully' are matched  using regular expression
+
+2019-04-13 02:59:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Msg_GSTIN is valid")): Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 02:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Msg_GSTIN is valid' is clicked on
+
+2019-04-13 02:59:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:52 - [TEST_STEP][PASSED] - ewayBillNoo = getText(findTestObject("Generate/EwayBill number - Active Invalid")): Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '301001758702'
+
+2019-04-13 02:59:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EwayBill number - Active Invalid' is: '301001758702'
+
+2019-04-13 02:59:52 - [TEST_STEP][PASSED] - logInfo("ewayBillNoo:" + ewayBillNoo): ewayBillNoo:301001758702
+
+2019-04-13 02:59:52 - [MESSAGE][INFO] - ewayBillNoo:301001758702
+
+2019-04-13 02:59:52 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewayBillNoo, 0, c, 1): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:52 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:53 - [TEST_STEP][PASSED] - EwayBillDatee = getText(findTestObject("Generate/EWB Date - Active Invalid")): Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 02:59:45 AM'
+
+2019-04-13 02:59:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/EWB Date - Active Invalid' is: '13/04/2019 02:59:45 AM'
+
+2019-04-13 02:59:54 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillDatee, 0, c, 2): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:54 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 02:59:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 02:59:55 - [TEST_STEP][PASSED] - EwayBillStatuss = getText(findTestObject("Generate/Status - Active not yet valid")): Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 02:59:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generate/Status - Active not yet valid' is: 'ACTIVE NOT YET VALID'
+
+2019-04-13 02:59:55 - [TEST_STEP][PASSED] - verifyMatch(EwayBillStatuss, "ACTIVE NOT YET VALID", true): Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 02:59:55 - [MESSAGE][PASSED] - Actual text 'ACTIVE NOT YET VALID' and expected text 'ACTIVE NOT YET VALID' are matched  using regular expression
+
+2019-04-13 02:59:55 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillStatuss, 0, c, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:55 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 02:59:55 - [TEST_STEP][PASSED] - (c++): null
+
+2019-04-13 02:59:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 02:59:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 02:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Generate/Cancel icon")): Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 02:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Generate/Cancel icon' is clicked on
+
+2019-04-13 02:59:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 02:59:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 02:59:59 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-04-13 03:00:00 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update" classname="Test Cases/Update" status="PASSED">
+         <system-out><![CDATA[2019-04-13 03:00:00 - [TEST_CASE][PASSED] - Test Cases/Update: Test Cases/Update
+
+2019-04-13 03:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Update/View Tab")): Object: 'Object Repository/Update/View Tab' is clicked on
+
+2019-04-13 03:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/View Tab' is clicked on
+
+2019-04-13 03:00:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:03 - [TEST_STEP][PASSED] - EwayBillNo = utility.ReadFromExcel.Read(0, 2, 1): utility.ReadFromExcel.Read is PASSED
+
+2019-04-13 03:00:03 - [MESSAGE][PASSED] - utility.ReadFromExcel.Read is PASSED
+
+2019-04-13 03:00:03 - [TEST_STEP][PASSED] - logInfo("EwayBillNo:" + EwayBillNo): EwayBillNo:361001758700
+
+2019-04-13 03:00:03 - [MESSAGE][INFO] - EwayBillNo:361001758700
+
+2019-04-13 03:00:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Update/Enter EwayBill No. in Filter")): Object: 'Object Repository/Update/Enter EwayBill No. in Filter' is clicked on
+
+2019-04-13 03:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Enter EwayBill No. in Filter' is clicked on
+
+2019-04-13 03:00:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:06 - [TEST_STEP][PASSED] - setText(findTestObject("Update/Enter EwayBill No. in Filter"), EwayBillNo): Text '361001758700' is set on object 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:06 - [MESSAGE][PASSED] - Text '361001758700' is set on object 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Update/Enter EwayBill No. in Filter"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:10 - [TEST_STEP][PASSED] - click(findTestObject("Update/Checkbox againts eway bill")): Object: 'Object Repository/Update/Checkbox againts eway bill' is clicked on
+
+2019-04-13 03:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Checkbox againts eway bill' is clicked on
+
+2019-04-13 03:00:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Update/Update Part B button")): Object: 'Object Repository/Update/Update Part B button' is clicked on
+
+2019-04-13 03:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Update Part B button' is clicked on
+
+2019-04-13 03:00:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Update/Select Mode")): Object: 'Object Repository/Update/Select Mode' is clicked on
+
+2019-04-13 03:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Select Mode' is clicked on
+
+2019-04-13 03:00:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("Update/Enter From Place"), "Mumbai"): Text 'Mumbai' is set on object 'Object Repository/Update/Enter From Place'
+
+2019-04-13 03:00:15 - [MESSAGE][PASSED] - Text 'Mumbai' is set on object 'Object Repository/Update/Enter From Place'
+
+2019-04-13 03:00:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Update/Select From State"), "string:27", true): All options with value 'string:27' are selected in object 'Object Repository/Update/Select From State'  using regular expression
+
+2019-04-13 03:00:17 - [MESSAGE][PASSED] - All options with value 'string:27' are selected in object 'Object Repository/Update/Select From State'  using regular expression
+
+2019-04-13 03:00:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:18 - [TEST_STEP][PASSED] - setText(findTestObject("Update/Enter Vehical No"), "MH04EX1020"): Text 'MH04EX1020' is set on object 'Object Repository/Update/Enter Vehical No'
+
+2019-04-13 03:00:18 - [MESSAGE][PASSED] - Text 'MH04EX1020' is set on object 'Object Repository/Update/Enter Vehical No'
+
+2019-04-13 03:00:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Update/Select Reason"), "number:1", true): All options with value 'number:1' are selected in object 'Object Repository/Update/Select Reason'  using regular expression
+
+2019-04-13 03:00:19 - [MESSAGE][PASSED] - All options with value 'number:1' are selected in object 'Object Repository/Update/Select Reason'  using regular expression
+
+2019-04-13 03:00:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:20 - [TEST_STEP][PASSED] - setText(findTestObject("Update/Enter Remarks"), "Internal Testing"): Text 'Internal Testing' is set on object 'Object Repository/Update/Enter Remarks'
+
+2019-04-13 03:00:20 - [MESSAGE][PASSED] - Text 'Internal Testing' is set on object 'Object Repository/Update/Enter Remarks'
+
+2019-04-13 03:00:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Update/Update Button")): Object: 'Object Repository/Update/Update Button' is clicked on
+
+2019-04-13 03:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Update Button' is clicked on
+
+2019-04-13 03:00:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:24 - [TEST_STEP][PASSED] - EwayBill = getText(findTestObject("Update/EwayBill No")): Text of object 'Object Repository/Update/EwayBill No' is: '361001758700'
+
+2019-04-13 03:00:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Update/EwayBill No' is: '361001758700'
+
+2019-04-13 03:00:24 - [TEST_STEP][PASSED] - logInfo("Ewaybill : " + EwayBill): Ewaybill : 361001758700
+
+2019-04-13 03:00:24 - [MESSAGE][INFO] - Ewaybill : 361001758700
+
+2019-04-13 03:00:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:25 - [TEST_STEP][PASSED] - EwayBillValiDate = getText(findTestObject("Update/EwayBill Validity Date")): Text of object 'Object Repository/Update/EwayBill Validity Date' is: '14/04/2019 11:59:00'
+
+2019-04-13 03:00:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Update/EwayBill Validity Date' is: '14/04/2019 11:59:00'
+
+2019-04-13 03:00:25 - [TEST_STEP][PASSED] - logInfo("EwaybillDate: " + EwayBillValiDate): EwaybillDate: 14/04/2019 11:59:00
+
+2019-04-13 03:00:25 - [MESSAGE][INFO] - EwaybillDate: 14/04/2019 11:59:00
+
+2019-04-13 03:00:25 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(EwayBillValiDate, 0, 2, 3): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:00:25 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:00:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Update/Ok Button")): Object: 'Object Repository/Update/Ok Button' is clicked on
+
+2019-04-13 03:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Ok Button' is clicked on
+
+2019-04-13 03:00:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:28 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Update/BACK Button")): Object: 'Object Repository/Update/BACK Button' is clicked on
+
+2019-04-13 03:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/BACK Button' is clicked on
+
+2019-04-13 03:00:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Update/Enter EwayBill No. in Filter")): Object: 'Object Repository/Update/Enter EwayBill No. in Filter' is clicked on
+
+2019-04-13 03:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Update/Enter EwayBill No. in Filter' is clicked on
+
+2019-04-13 03:00:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("Update/Enter EwayBill No. in Filter"), EwayBill): Text '361001758700' is set on object 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:33 - [MESSAGE][PASSED] - Text '361001758700' is set on object 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Update/Enter EwayBill No. in Filter"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Update/Enter EwayBill No. in Filter'
+
+2019-04-13 03:00:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:35 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:35 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:36 - [TEST_STEP][PASSED] - status = getText(findTestObject("Update/Check Status Active")): Text of object 'Object Repository/Update/Check Status Active' is: 'ACTIVE'
+
+2019-04-13 03:00:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Update/Check Status Active' is: 'ACTIVE'
+
+2019-04-13 03:00:36 - [TEST_STEP][PASSED] - verifyMatch(status, "ACTIVE", true): Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 03:00:36 - [MESSAGE][PASSED] - Actual text 'ACTIVE' and expected text 'ACTIVE' are matched  using regular expression
+
+2019-04-13 03:00:36 - [TEST_STEP][PASSED] - logInfo("Ewaybill Status: " + status): Ewaybill Status: ACTIVE
+
+2019-04-13 03:00:36 - [MESSAGE][INFO] - Ewaybill Status: ACTIVE
+
+2019-04-13 03:00:36 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(status, 0, 2, 4): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:00:36 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:00:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:37 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cancel" classname="Test Cases/Cancel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cancel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-13 03:00:37 - [TEST_CASE][FAILED] - Test Cases/Cancel: Test Cases/Cancel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+
+
+2019-04-13 03:00:37 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-04-13 03:00:38 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-04-13 03:00:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:40 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.esp.irisgst.com/#/viewEway"): Navigate to 'https://dev.esp.irisgst.com/#/viewEway' successfully
+
+2019-04-13 03:00:40 - [MESSAGE][PASSED] - Navigate to 'https://dev.esp.irisgst.com/#/viewEway' successfully
+
+2019-04-13 03:00:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:41 - [TEST_STEP][PASSED] - Eway = utility.ReadFromExcel.Read(0, 3, 1): utility.ReadFromExcel.Read is PASSED
+
+2019-04-13 03:00:41 - [MESSAGE][PASSED] - utility.ReadFromExcel.Read is PASSED
+
+2019-04-13 03:00:41 - [TEST_STEP][PASSED] - logInfo("EwayBill: " + Eway): EwayBill: 331001758701
+
+2019-04-13 03:00:41 - [MESSAGE][INFO] - EwayBill: 331001758701
+
+2019-04-13 03:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/Ewb no filter")): Object: 'Object Repository/Cancel/Ewb no filter' is clicked on
+
+2019-04-13 03:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/Ewb no filter' is clicked on
+
+2019-04-13 03:00:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Cancel/Ewb no filter"), Eway): Text '331001758701' is set on object 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:00:44 - [MESSAGE][PASSED] - Text '331001758701' is set on object 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:00:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:00:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:00:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Cancel/Ewb no filter"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:00:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:00:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/Checkbox")): Object: 'Object Repository/Cancel/Checkbox' is clicked on
+
+2019-04-13 03:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/Checkbox' is clicked on
+
+2019-04-13 03:00:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:00:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:00:48 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:00:48 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel")): Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+
+2019-04-13 03:01:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@id='subscribe'])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-13 03:01:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104679428.png]]
+
+2019-04-13 03:01:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:01:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:01:21 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Cancel/Select Reason"), "number:4", true): Unable to select option by value 'number:4' of object 'Object Repository/Cancel/Select Reason'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'number:4' of object 'Object Repository/Cancel/Select Reason'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at Cancel.run(Cancel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Select Reason' located by 'By.xpath: //select[@name='cancelRsnCode']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:40)
+	... 13 more
+)
+
+2019-04-13 03:01:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@name='cancelRsnCode']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-13 03:01:53 - [MESSAGE][FAILED] - Unable to select option by value 'number:4' of object 'Object Repository/Cancel/Select Reason'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'number:4' of object 'Object Repository/Cancel/Select Reason'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at Cancel.run(Cancel:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Select Reason' located by 'By.xpath: //select[@name='cancelRsnCode']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$6.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104713091.png]]
+
+2019-04-13 03:01:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:01:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:01:54 - [TEST_STEP][FAILED] - setText(findTestObject("Cancel/Enter Cancel Remark"), "Internal Testing"): Unable to set text 'Internal Testing' of object 'Object Repository/Cancel/Enter Cancel Remark' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Internal Testing' of object 'Object Repository/Cancel/Enter Cancel Remark'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Cancel.run(Cancel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Enter Cancel Remark' located by 'By.xpath: //input[@name='cancelRmrk']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:44)
+	... 13 more
+)
+
+2019-04-13 03:02:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cancelRmrk']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-13 03:02:26 - [MESSAGE][FAILED] - Unable to set text 'Internal Testing' of object 'Object Repository/Cancel/Enter Cancel Remark' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Internal Testing' of object 'Object Repository/Cancel/Enter Cancel Remark'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Cancel.run(Cancel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Enter Cancel Remark' located by 'By.xpath: //input[@name='cancelRmrk']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:44)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104745744.png]]
+
+2019-04-13 03:02:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:02:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/button_Cancel")): Object: 'Object Repository/Cancel/button_Cancel' is clicked on
+
+2019-04-13 03:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/button_Cancel' is clicked on
+
+2019-04-13 03:02:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:02:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:02:28 - [TEST_STEP][FAILED] - ewaybill = getText(findTestObject("Cancel/Ewb No")): Unable to get text of object 'Object Repository/Cancel/Ewb No' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Cancel/Ewb No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Cancel.run(Cancel:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Ewb No' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Cancel Date'])[1]/following::td[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:52)
+	... 13 more
+)
+
+2019-04-13 03:02:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Cancel Date'])[1]/following::td[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-13 03:02:59 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Cancel/Ewb No' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Cancel/Ewb No'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Cancel.run(Cancel:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Ewb No' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Cancel Date'])[1]/following::td[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104779138.png]]
+
+2019-04-13 03:02:59 - [TEST_STEP][PASSED] - logInfo("ewaybill: " + ewaybill): ewaybill: null
+
+2019-04-13 03:02:59 - [MESSAGE][INFO] - ewaybill: null
+
+2019-04-13 03:02:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:03:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:03:00 - [TEST_STEP][FAILED] - ewaybillCanceldate = getText(findTestObject("Cancel/Cancel Date")): Unable to get text of object 'Object Repository/Cancel/Cancel Date' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Cancel/Cancel Date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Cancel.run(Cancel:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Cancel Date' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Cancel Date'])[1]/following::td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:58)
+	... 13 more
+)
+
+2019-04-13 03:03:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Cancel Date'])[1]/following::td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-13 03:03:31 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Cancel/Cancel Date' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Cancel/Cancel Date'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Cancel.run(Cancel:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Cancel Date' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Cancel Date'])[1]/following::td[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$5.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:58)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104811202.png]]
+
+2019-04-13 03:03:31 - [TEST_STEP][PASSED] - logInfo("ewaybillCanceldate: " + ewaybillCanceldate): ewaybillCanceldate: null
+
+2019-04-13 03:03:31 - [MESSAGE][INFO] - ewaybillCanceldate: null
+
+2019-04-13 03:03:31 - [TEST_STEP][PASSED] - utility.WriteToExcel.Sd(ewaybillCanceldate, 0, 3, 3): utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:03:31 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:03:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:03:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:03:32 - [TEST_STEP][FAILED] - click(findTestObject("Cancel/button_Ok")): Unable to click on object 'Object Repository/Cancel/button_Ok' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/button_Ok'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/button_Ok' located by 'By.xpath: //button[@id='closebtn']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:66)
+	... 13 more
+)
+
+2019-04-13 03:04:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='closebtn']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-13 03:04:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Cancel/button_Ok' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/button_Ok'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/button_Ok' located by 'By.xpath: //button[@id='closebtn']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:66)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Amitansh\\git\\katalonstudio\\Reports\\Smoke Test\\20190413_025658\\1555104843257.png]]
+
+2019-04-13 03:04:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:04:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:04:04 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:04:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/Back")): Object: 'Object Repository/Cancel/Back' is clicked on
+
+2019-04-13 03:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/Back' is clicked on
+
+2019-04-13 03:04:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:04:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/Ewb no filter")): Object: 'Object Repository/Cancel/Ewb no filter' is clicked on
+
+2019-04-13 03:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/Ewb no filter' is clicked on
+
+2019-04-13 03:04:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:04:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:04:09 - [TEST_STEP][PASSED] - setText(findTestObject("Cancel/Ewb no filter"), Eway): Text '331001758701' is set on object 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:04:09 - [MESSAGE][PASSED] - Text '331001758701' is set on object 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:04:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-13 03:04:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-13 03:04:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Cancel/Ewb no filter"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:04:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Cancel/Ewb no filter'
+
+2019-04-13 03:04:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:04:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:04:12 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:04:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-13 03:04:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:04:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/ACTIVE NOT YET VALID")): Object: 'Object Repository/Cancel/ACTIVE NOT YET VALID' is clicked on
+
+2019-04-13 03:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/ACTIVE NOT YET VALID' is clicked on
+
+2019-04-13 03:04:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:04:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Cancel/ACTIVE")): Object: 'Object Repository/Cancel/ACTIVE' is clicked on
+
+2019-04-13 03:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancel/ACTIVE' is clicked on
+
+2019-04-13 03:04:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-13 03:04:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-13 03:04:15 - [TEST_STEP][PASSED] - EwaybillStatus = getText(findTestObject("Cancel/Cancel Status")): Text of object 'Object Repository/Cancel/Cancel Status' is: 'ACTIVE'
+
+2019-04-13 03:04:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cancel/Cancel Status' is: 'ACTIVE'
+
+2019-04-13 03:04:16 - [TEST_STEP][PASSED] - logInfo("EwaybillStatus: " + EwaybillStatus): EwaybillStatus: ACTIVE
+
+2019-04-13 03:04:16 - [MESSAGE][INFO] - EwaybillStatus: ACTIVE
+
+2019-04-13 03:04:16 - [TEST_STEP][FAILED] - utility.WriteToExcel.Sd(EwaybillStatus, 0, 3, 4): utility.WriteToExcel.Sd(EwaybillStatus, 0, 3, 4) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+
+
+2019-04-13 03:04:16 - [MESSAGE][PASSED] - utility.WriteToExcel.Sd is PASSED
+
+2019-04-13 03:04:16 - [MESSAGE][FAILED] - utility.WriteToExcel.Sd(EwaybillStatus, 0, 3, 4) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-13 03:00:37 - [TEST_CASE][FAILED] - Test Cases/Cancel: Test Cases/Cancel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-13 02:57:00 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Cancel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-13 02:57:00 - [TEST_SUITE][FAILED] - Smoke Test: Test Cases/Cancel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Cancel.run(Cancel:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555104418022.run(TempTestSuite1555104418022.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Cancel/Page_IRIS-TOPAZ/button_Cancel' located by 'By.xpath: (//button[@id='subscribe'])[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1555096138189.run(Script1555096138189.groovy:36)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>
