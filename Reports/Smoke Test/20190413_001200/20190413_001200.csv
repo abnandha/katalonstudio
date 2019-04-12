@@ -1,0 +1,214 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test,Firefox 65.0,,2019-04-13 00:12:02,2019-04-13 00:14:47,2m - 44.991s,PASSED
+,,,,,,
+Test Cases/Login,Firefox 65.0,,2019-04-13 00:12:03,2019-04-13 00:12:33,30.778s,PASSED
+"openBrowser("""")",Firefox 65.0,Open Browser,2019-04-13 00:12:03,2019-04-13 00:12:20,16.529s,PASSED
+navigateToUrl(url),Firefox 65.0,Hit URL to Browser,2019-04-13 00:12:20,2019-04-13 00:12:26,6.808s,PASSED
+maximizeWindow(),Firefox 65.0,Maximize the browser tab,2019-04-13 00:12:26,2019-04-13 00:12:27,0.056s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:12:27,2019-04-13 00:12:29,2.044s,PASSED
+topazTitle = getWindowTitle(),Firefox 65.0,verify with title,2019-04-13 00:12:29,2019-04-13 00:12:29,0.077s,PASSED
+"verifyMatch(topazTitle, ""IRIS-TOPAZ"", true)",Firefox 65.0,,2019-04-13 00:12:29,2019-04-13 00:12:29,0.012s,PASSED
+"setText(findTestObject(""Login/Enter Username""), username)",Firefox 65.0,Enter input to user name,2019-04-13 00:12:29,2019-04-13 00:12:29,0.643s,PASSED
+"setText(findTestObject(""Login/Enter Password""), password)",Firefox 65.0,Enter input to Password,2019-04-13 00:12:29,2019-04-13 00:12:29,0.185s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:29,2019-04-13 00:12:31,1.004s,PASSED
+"click(findTestObject(""Login/Sign In button""))",Firefox 65.0,Click on sumbit button,2019-04-13 00:12:31,2019-04-13 00:12:31,0.509s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:12:31,2019-04-13 00:12:33,2.000s,PASSED
+"LoginTitle = getText(findTestObject(""Login/div_Login Successful""))",Firefox 65.0,Get toaster message after getting login,2019-04-13 00:12:33,2019-04-13 00:12:33,0.060s,PASSED
+"verifyMatch(LoginTitle, ""Login Successful!"", true)",Firefox 65.0,Verify the login success message and cofirm login ,2019-04-13 00:12:33,2019-04-13 00:12:33,0.005s,PASSED
+"click(findTestObject(""Login/div_Login Successful""))",Firefox 65.0,,2019-04-13 00:12:33,2019-04-13 00:12:33,0.266s,PASSED
+,,,,,,
+Test Cases/Generate,Firefox 65.0,"1. Change business
+2. Verify the business hierarchy
+3. Generate Eway bill",2019-04-13 00:12:33,2019-04-13 00:14:07,1m - 34.122s,PASSED
+delay(3),Firefox 65.0,,2019-04-13 00:12:34,2019-04-13 00:12:37,3.003s,PASSED
+"click(findTestObject(""Generate/i_Vijeta Business Solution_fa fa-angle-double-right""))",Firefox 65.0,Click on arrow for changing root business,2019-04-13 00:12:37,2019-04-13 00:12:37,0.303s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:37,2019-04-13 00:12:38,1.001s,PASSED
+"click(findTestObject(""Generate/li_Nands Group""))",Firefox 65.0,click on requested busienss,2019-04-13 00:12:38,2019-04-13 00:12:38,0.327s,PASSED
+"changeBusienssMsg = getText(findTestObject(""Generate/div_Business Changed Successfully""))",Firefox 65.0,,2019-04-13 00:12:38,2019-04-13 00:12:38,0.055s,PASSED
+"verifyMatch(changeBusienssMsg, ""Business Changed Successfully."", true)",Firefox 65.0,,2019-04-13 00:12:38,2019-04-13 00:12:38,0.005s,PASSED
+"click(findTestObject(""Generate/div_Business Changed Successfully""))",Firefox 65.0,,2019-04-13 00:12:38,2019-04-13 00:12:39,0.289s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:39,2019-04-13 00:12:40,1.003s,PASSED
+"click(findTestObject(""Generate/i_Nands Group_fa fa-angle-double-right""))",Firefox 65.0,,2019-04-13 00:12:40,2019-04-13 00:12:40,0.270s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:40,2019-04-13 00:12:41,1.005s,PASSED
+"click(findTestObject(""Generate/li_Nands Business""))",Firefox 65.0,,2019-04-13 00:12:41,2019-04-13 00:12:41,0.309s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:41,2019-04-13 00:12:42,1.005s,PASSED
+"click(findTestObject(""Generate/i_Nands Business_fa fa-angle-double-right""))",Firefox 65.0,,2019-04-13 00:12:42,2019-04-13 00:12:43,0.274s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:43,2019-04-13 00:12:44,1.004s,PASSED
+"click(findTestObject(""Generate/li_Nands_Entity_1""))",Firefox 65.0,,2019-04-13 00:12:44,2019-04-13 00:12:44,0.301s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:44,2019-04-13 00:12:45,1.002s,PASSED
+"click(findTestObject(""Generate/li_Nands Group_1""))",Firefox 65.0,,2019-04-13 00:12:45,2019-04-13 00:12:45,0.290s,PASSED
+"click(findTestObject(""Generate/Generate Tab""))",Firefox 65.0,,2019-04-13 00:12:45,2019-04-13 00:12:45,0.102s,PASSED
+delay(3),Firefox 65.0,,2019-04-13 00:12:45,2019-04-13 00:12:48,3.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Transaction Type""), ""number:1"", true)",Firefox 65.0,,2019-04-13 00:12:48,2019-04-13 00:12:49,0.671s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:49,2019-04-13 00:12:50,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Sub Supply Type""), ""number:1"", true)",Firefox 65.0,,2019-04-13 00:12:50,2019-04-13 00:12:50,0.247s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:50,2019-04-13 00:12:51,1.003s,PASSED
+"setText(findTestObject(""Generate/Enter Sub-supply type Description""), ""SubSupplyDescription"")",Firefox 65.0,,2019-04-13 00:12:51,2019-04-13 00:12:52,0.258s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:52,2019-04-13 00:12:53,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Document Type""), ""string:INV"", true)",Firefox 65.0,,2019-04-13 00:12:53,2019-04-13 00:12:53,0.143s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:53,2019-04-13 00:12:54,1.003s,PASSED
+docNo = utility.randomNumber.rendomNo(8),Firefox 65.0,,2019-04-13 00:12:54,2019-04-13 00:12:54,0.053s,PASSED
+"setText(findTestObject(""Generate/Enter Document Number""), docNo)",Firefox 65.0,,2019-04-13 00:12:54,2019-04-13 00:12:54,0.169s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:54,2019-04-13 00:12:55,1.002s,PASSED
+"utility.WriteToExcel.Sd(docNo, 0, 1, 0)",Firefox 65.0,,2019-04-13 00:12:55,2019-04-13 00:12:56,1.265s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:56,2019-04-13 00:12:57,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Invoice Type""), ""string:B2B"", true)",Firefox 65.0,,2019-04-13 00:12:57,2019-04-13 00:12:58,0.468s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:58,2019-04-13 00:12:59,1.003s,PASSED
+"setText(findTestObject(""Generate/Enter Invoice Ref Number""), ""REFINV001"")",Firefox 65.0,,2019-04-13 00:12:59,2019-04-13 00:12:59,0.137s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:12:59,2019-04-13 00:13:00,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Supplier address""), ""number:7363"", true)",Firefox 65.0,,2019-04-13 00:13:00,2019-04-13 00:13:00,0.542s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:00,2019-04-13 00:13:01,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Recepient address""), ""number:548"", true)",Firefox 65.0,,2019-04-13 00:13:01,2019-04-13 00:13:02,0.505s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:02,2019-04-13 00:13:03,1.001s,PASSED
+"setText(findTestObject(""Generate/Enter HSN code""), ""88"")",Firefox 65.0,,2019-04-13 00:13:03,2019-04-13 00:13:03,0.094s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:03,2019-04-13 00:13:04,1.003s,PASSED
+"setText(findTestObject(""Generate/Enter Taxable Value""), ""1"")",Firefox 65.0,,2019-04-13 00:13:04,2019-04-13 00:13:04,0.088s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:04,2019-04-13 00:13:05,1.003s,PASSED
+"setText(findTestObject(""Generate/Enter Quantity""), ""1"")",Firefox 65.0,,2019-04-13 00:13:05,2019-04-13 00:13:05,0.112s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:05,2019-04-13 00:13:06,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select CGST Rate""), ""string:1.50"", true)",Firefox 65.0,,2019-04-13 00:13:06,2019-04-13 00:13:07,0.899s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:07,2019-04-13 00:13:08,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select SGST Rate""), ""string:1.50"", true)",Firefox 65.0,,2019-04-13 00:13:08,2019-04-13 00:13:09,0.637s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:09,2019-04-13 00:13:10,1.005s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Advol""), ""string:3"", true)",Firefox 65.0,,2019-04-13 00:13:10,2019-04-13 00:13:11,0.909s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:11,2019-04-13 00:13:12,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Non Advol""), ""number:400"", true)",Firefox 65.0,,2019-04-13 00:13:12,2019-04-13 00:13:12,0.536s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:12,2019-04-13 00:13:13,1.005s,PASSED
+"setText(findTestObject(""Generate/Enter Distance""), ""100"")",Firefox 65.0,,2019-04-13 00:13:13,2019-04-13 00:13:13,0.147s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:13,2019-04-13 00:13:14,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Trans mode""), ""number:1"", true)",Firefox 65.0,,2019-04-13 00:13:14,2019-04-13 00:13:15,0.510s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:15,2019-04-13 00:13:16,1.006s,PASSED
+"setText(findTestObject(""Generate/Enter Vehical No""), ""MH02EX3636"")",Firefox 65.0,,2019-04-13 00:13:16,2019-04-13 00:13:16,0.154s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:16,2019-04-13 00:13:17,1.005s,PASSED
+"click(findTestObject(""Generate/Sumbit Button""))",Firefox 65.0,,2019-04-13 00:13:17,2019-04-13 00:13:18,0.549s,PASSED
+delay(5),Firefox 65.0,,2019-04-13 00:13:18,2019-04-13 00:13:23,5.002s,PASSED
+"MsgGen = getText(findTestObject(""Generate/Msg Generated Successfully""))",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.047s,PASSED
+"verifyMatch(MsgGen, ""Generated Successfully"", true)",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.016s,PASSED
+"ewayBillNo = getText(findTestObject(""Generate/Eway bill number""))",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.033s,PASSED
+"utility.WriteToExcel.Sd(ewayBillNo, 0, 1, 1)",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.081s,PASSED
+"EwayBillDate = getText(findTestObject(""Generate/Eway Bill date""))",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.039s,PASSED
+"utility.WriteToExcel.Sd(EwayBillDate, 0, 1, 2)",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.061s,PASSED
+"EwayValidityDate = getText(findTestObject(""Generate/Eway bill Validity date""))",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.032s,PASSED
+"utility.WriteToExcel.Sd(EwayValidityDate, 0, 1, 3)",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.068s,PASSED
+"EwayBillStatus = getText(findTestObject(""Generate/Eway Bill Status""))",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.029s,PASSED
+"verifyMatch(EwayBillStatus, ""ACTIVE"", true)",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.000s,PASSED
+"utility.WriteToExcel.Sd(EwayBillStatus, 0, 1, 4)",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.108s,PASSED
+"click(findTestObject(""Generate/Generate Another button""))",Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:23,0.291s,PASSED
+delay(3),Firefox 65.0,,2019-04-13 00:13:23,2019-04-13 00:13:26,3.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Transaction Type""), ""number:1"", true)",Firefox 65.0,,2019-04-13 00:13:26,2019-04-13 00:13:27,0.534s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:27,2019-04-13 00:13:28,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Sub Supply Type""), ""number:1"", true)",Firefox 65.0,,2019-04-13 00:13:28,2019-04-13 00:13:28,0.318s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:28,2019-04-13 00:13:29,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter Sub-supply type Description""), ""SubSupplyDescription"")",Firefox 65.0,,2019-04-13 00:13:29,2019-04-13 00:13:30,0.389s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:30,2019-04-13 00:13:31,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Document Type""), ""string:INV"", true)",Firefox 65.0,,2019-04-13 00:13:31,2019-04-13 00:13:31,0.160s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:31,2019-04-13 00:13:32,1.005s,PASSED
+docnoo = utility.randomNumber.rendomNo(8),Firefox 65.0,,2019-04-13 00:13:32,2019-04-13 00:13:32,0.001s,PASSED
+"setText(findTestObject(""Generate/Enter Document Number""), docnoo)",Firefox 65.0,,2019-04-13 00:13:32,2019-04-13 00:13:32,0.213s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:32,2019-04-13 00:13:33,1.002s,PASSED
+"utility.WriteToExcel.Sd(docnoo, 0, 2, 0)",Firefox 65.0,,2019-04-13 00:13:33,2019-04-13 00:13:33,0.100s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:33,2019-04-13 00:13:34,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Invoice Type""), ""string:B2B"", true)",Firefox 65.0,,2019-04-13 00:13:34,2019-04-13 00:13:35,0.649s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:35,2019-04-13 00:13:36,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter Invoice Ref Number""), ""REFINV001"")",Firefox 65.0,,2019-04-13 00:13:36,2019-04-13 00:13:36,0.193s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:36,2019-04-13 00:13:37,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Supplier address""), ""number:7363"", true)",Firefox 65.0,,2019-04-13 00:13:37,2019-04-13 00:13:37,0.533s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:37,2019-04-13 00:13:38,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Recepient address""), ""number:548"", true)",Firefox 65.0,,2019-04-13 00:13:38,2019-04-13 00:13:39,0.523s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:39,2019-04-13 00:13:40,1.003s,PASSED
+"setText(findTestObject(""Generate/Enter HSN code""), ""88"")",Firefox 65.0,,2019-04-13 00:13:40,2019-04-13 00:13:40,0.163s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:40,2019-04-13 00:13:41,1.001s,PASSED
+"setText(findTestObject(""Generate/Enter Taxable Value""), ""1"")",Firefox 65.0,,2019-04-13 00:13:41,2019-04-13 00:13:41,0.143s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:41,2019-04-13 00:13:42,1.002s,PASSED
+"setText(findTestObject(""Generate/Enter Quantity""), ""1"")",Firefox 65.0,,2019-04-13 00:13:42,2019-04-13 00:13:42,0.175s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:42,2019-04-13 00:13:43,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select CGST Rate""), ""string:1.50"", true)",Firefox 65.0,,2019-04-13 00:13:43,2019-04-13 00:13:44,0.778s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:44,2019-04-13 00:13:45,1.003s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select SGST Rate""), ""string:1.50"", true)",Firefox 65.0,,2019-04-13 00:13:45,2019-04-13 00:13:46,0.636s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:46,2019-04-13 00:13:47,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Advol""), ""string:3"", true)",Firefox 65.0,,2019-04-13 00:13:47,2019-04-13 00:13:48,0.991s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:48,2019-04-13 00:13:49,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Generate/Select Cess Non Advol""), ""number:400"", true)",Firefox 65.0,,2019-04-13 00:13:49,2019-04-13 00:13:49,0.606s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:49,2019-04-13 00:13:51,1.005s,PASSED
+"setText(findTestObject(""Generate/Enter Distance""), ""100"")",Firefox 65.0,,2019-04-13 00:13:51,2019-04-13 00:13:51,0.197s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:51,2019-04-13 00:13:52,1.001s,PASSED
+"setText(findTestObject(""Generate/Enter Transporter ID""), ""05AAAAU1183B1Z0"")",Firefox 65.0,,2019-04-13 00:13:52,2019-04-13 00:13:52,0.198s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:52,2019-04-13 00:13:53,1.002s,PASSED
+"click(findTestObject(""Generate/Sumbit Button""))",Firefox 65.0,,2019-04-13 00:13:53,2019-04-13 00:13:53,0.425s,PASSED
+delay(5),Firefox 65.0,,2019-04-13 00:13:53,2019-04-13 00:13:58,5.003s,PASSED
+"MsgGenn = getText(findTestObject(""Generate/Message for not active""))",Firefox 65.0,,2019-04-13 00:13:58,2019-04-13 00:13:58,0.095s,PASSED
+"verifyMatch(MsgGenn, ""Generated Successfully"", true)",Firefox 65.0,,2019-04-13 00:13:58,2019-04-13 00:13:58,0.000s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:13:58,2019-04-13 00:13:59,1.002s,PASSED
+"click(findTestObject(""Generate/Msg_GSTIN is valid""))",Firefox 65.0,,2019-04-13 00:13:59,2019-04-13 00:14:00,0.295s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:00,2019-04-13 00:14:01,1.002s,PASSED
+"ewayBillNoo = getText(findTestObject(""Generate/EwayBill number - Active Invalid""))",Firefox 65.0,,2019-04-13 00:14:01,2019-04-13 00:14:01,0.054s,PASSED
+"logInfo(""ewayBillNoo:"" + ewayBillNoo)",Firefox 65.0,,2019-04-13 00:14:01,2019-04-13 00:14:01,0.016s,PASSED
+"utility.WriteToExcel.Sd(ewayBillNoo, 0, 2, 1)",Firefox 65.0,,2019-04-13 00:14:01,2019-04-13 00:14:01,0.071s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:01,2019-04-13 00:14:02,1.003s,PASSED
+"EwayBillDatee = getText(findTestObject(""Generate/EWB Date - Active Invalid""))",Firefox 65.0,,2019-04-13 00:14:02,2019-04-13 00:14:02,0.045s,PASSED
+"utility.WriteToExcel.Sd(EwayBillDatee, 0, 2, 2)",Firefox 65.0,,2019-04-13 00:14:02,2019-04-13 00:14:02,0.077s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:02,2019-04-13 00:14:03,1.002s,PASSED
+"EwayBillStatuss = getText(findTestObject(""Generate/Status - Active not yet valid""))",Firefox 65.0,,2019-04-13 00:14:03,2019-04-13 00:14:03,0.059s,PASSED
+"verifyMatch(EwayBillStatuss, ""ACTIVE NOT YET VALID"", true)",Firefox 65.0,,2019-04-13 00:14:03,2019-04-13 00:14:03,0.000s,PASSED
+"utility.WriteToExcel.Sd(EwayBillStatuss, 0, 2, 4)",Firefox 65.0,,2019-04-13 00:14:03,2019-04-13 00:14:03,0.104s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:03,2019-04-13 00:14:05,2.002s,PASSED
+"click(findTestObject(""Generate/Cancel icon""))",Firefox 65.0,,2019-04-13 00:14:05,2019-04-13 00:14:05,0.306s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:05,2019-04-13 00:14:07,2.002s,PASSED
+,,,,,,
+Test Cases/Update,Firefox 65.0,,2019-04-13 00:14:07,2019-04-13 00:14:46,38.152s,PASSED
+"click(findTestObject(""Update/View Tab""))",Firefox 65.0,,2019-04-13 00:14:08,2019-04-13 00:14:08,0.102s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:08,2019-04-13 00:14:10,2.005s,PASSED
+"EwayBillNo = utility.ReadFromExcel.Read(0, 2, 1)",Firefox 65.0,,2019-04-13 00:14:10,2019-04-13 00:14:10,0.127s,PASSED
+"logInfo(""EwayBillNo:"" + EwayBillNo)",Firefox 65.0,,2019-04-13 00:14:10,2019-04-13 00:14:10,0.003s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:10,2019-04-13 00:14:11,1.005s,PASSED
+"click(findTestObject(""Update/Enter EwayBill No. in Filter""))",Firefox 65.0,,2019-04-13 00:14:11,2019-04-13 00:14:11,0.331s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:11,2019-04-13 00:14:13,2.006s,PASSED
+"setText(findTestObject(""Update/Enter EwayBill No. in Filter""), EwayBillNo)",Firefox 65.0,,2019-04-13 00:14:13,2019-04-13 00:14:13,0.250s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:13,2019-04-13 00:14:15,2.004s,PASSED
+"sendKeys(findTestObject(""Update/Enter EwayBill No. in Filter""), Keys.chord(ENTER))",Firefox 65.0,,2019-04-13 00:14:15,2019-04-13 00:14:16,0.212s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:16,2019-04-13 00:14:18,2.003s,PASSED
+"click(findTestObject(""Update/Checkbox againts eway bill""))",Firefox 65.0,,2019-04-13 00:14:18,2019-04-13 00:14:18,0.309s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:18,2019-04-13 00:14:19,1.004s,PASSED
+"scrollToPosition(0, 0)",Firefox 65.0,,2019-04-13 00:14:19,2019-04-13 00:14:19,0.047s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:19,2019-04-13 00:14:20,1.018s,PASSED
+"click(findTestObject(""Update/Update Part B button""))",Firefox 65.0,,2019-04-13 00:14:20,2019-04-13 00:14:21,0.484s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:21,2019-04-13 00:14:22,1.003s,PASSED
+"click(findTestObject(""Update/Select Mode""))",Firefox 65.0,,2019-04-13 00:14:22,2019-04-13 00:14:22,0.253s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:22,2019-04-13 00:14:23,1.023s,PASSED
+"setText(findTestObject(""Update/Enter From Place""), ""Mumbai"")",Firefox 65.0,,2019-04-13 00:14:23,2019-04-13 00:14:23,0.118s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:23,2019-04-13 00:14:24,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Update/Select From State""), ""string:27"", true)",Firefox 65.0,,2019-04-13 00:14:24,2019-04-13 00:14:25,1.295s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:25,2019-04-13 00:14:26,1.004s,PASSED
+"setText(findTestObject(""Update/Enter Vehical No""), ""MH04EX1020"")",Firefox 65.0,,2019-04-13 00:14:26,2019-04-13 00:14:26,0.144s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:26,2019-04-13 00:14:27,1.004s,PASSED
+"selectOptionByValue(findTestObject(""Update/Select Reason""), ""number:1"", true)",Firefox 65.0,,2019-04-13 00:14:27,2019-04-13 00:14:28,0.418s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:28,2019-04-13 00:14:29,1.004s,PASSED
+"setText(findTestObject(""Update/Enter Remarks""), ""Internal Testing"")",Firefox 65.0,,2019-04-13 00:14:29,2019-04-13 00:14:29,0.141s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:29,2019-04-13 00:14:31,2.001s,PASSED
+"click(findTestObject(""Update/Update Button""))",Firefox 65.0,,2019-04-13 00:14:31,2019-04-13 00:14:31,0.293s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:31,2019-04-13 00:14:32,1.002s,PASSED
+"EwayBill = getText(findTestObject(""Update/EwayBill No""))",Firefox 65.0,,2019-04-13 00:14:32,2019-04-13 00:14:32,0.048s,PASSED
+"logInfo(""Ewaybill : "" + EwayBill)",Firefox 65.0,,2019-04-13 00:14:32,2019-04-13 00:14:32,0.000s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:32,2019-04-13 00:14:33,1.001s,PASSED
+"EwayBillValiDate = getText(findTestObject(""Update/EwayBill Validity Date""))",Firefox 65.0,,2019-04-13 00:14:33,2019-04-13 00:14:33,0.039s,PASSED
+"logInfo(""EwaybillDate: "" + EwayBillValiDate)",Firefox 65.0,,2019-04-13 00:14:33,2019-04-13 00:14:33,0.000s,PASSED
+"utility.WriteToExcel.Sd(EwayBillValiDate, 0, 2, 3)",Firefox 65.0,,2019-04-13 00:14:33,2019-04-13 00:14:33,0.093s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:33,2019-04-13 00:14:34,1.001s,PASSED
+"click(findTestObject(""Update/Ok Button""))",Firefox 65.0,,2019-04-13 00:14:34,2019-04-13 00:14:35,0.259s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:35,2019-04-13 00:14:37,2.000s,PASSED
+"scrollToPosition(0, 0)",Firefox 65.0,,2019-04-13 00:14:37,2019-04-13 00:14:37,0.020s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:37,2019-04-13 00:14:38,1.001s,PASSED
+"click(findTestObject(""Update/BACK Button""))",Firefox 65.0,,2019-04-13 00:14:38,2019-04-13 00:14:39,1.030s,PASSED
+delay(2),Firefox 65.0,,2019-04-13 00:14:39,2019-04-13 00:14:41,2.000s,PASSED
+"click(findTestObject(""Update/Enter EwayBill No. in Filter""))",Firefox 65.0,,2019-04-13 00:14:41,2019-04-13 00:14:41,0.278s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:41,2019-04-13 00:14:42,1.004s,PASSED
+"setText(findTestObject(""Update/Enter EwayBill No. in Filter""), EwayBill)",Firefox 65.0,,2019-04-13 00:14:42,2019-04-13 00:14:42,0.313s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:42,2019-04-13 00:14:43,1.002s,PASSED
+"sendKeys(findTestObject(""Update/Enter EwayBill No. in Filter""), Keys.chord(ENTER))",Firefox 65.0,,2019-04-13 00:14:43,2019-04-13 00:14:44,0.128s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:44,2019-04-13 00:14:45,1.002s,PASSED
+"scrollToPosition(0, 0)",Firefox 65.0,,2019-04-13 00:14:45,2019-04-13 00:14:45,0.019s,PASSED
+delay(1),Firefox 65.0,,2019-04-13 00:14:45,2019-04-13 00:14:46,1.001s,PASSED
+"status = getText(findTestObject(""Update/Check Status Active""))",Firefox 65.0,,2019-04-13 00:14:46,2019-04-13 00:14:46,0.048s,PASSED
+"verifyMatch(status, ""ACTIVE"", true)",Firefox 65.0,,2019-04-13 00:14:46,2019-04-13 00:14:46,0.003s,PASSED
+"logInfo(""Ewaybill Status: "" + status)",Firefox 65.0,,2019-04-13 00:14:46,2019-04-13 00:14:46,0.001s,PASSED
+"utility.WriteToExcel.Sd(status, 0, 2, 4)",Firefox 65.0,,2019-04-13 00:14:46,2019-04-13 00:14:46,0.028s,PASSED

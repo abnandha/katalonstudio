@@ -271,7 +271,7 @@ CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillStatuss,0, 2, 4)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Generate/Cancel icon'))
 
 WebUI.delay(2)
 

@@ -11,9 +11,15 @@ String EwayBillNo = CustomKeywords.'utility.ReadFromExcel.Read'(0, 2, 1)
 
 KeywordUtil.logInfo('EwayBillNo:' + EwayBillNo)
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Update/Enter EwayBill No. in Filter'))
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Update/Enter EwayBill No. in Filter'), EwayBillNo)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Update/Enter EwayBill No. in Filter'), Keys.chord(Keys.ENTER))
 
@@ -23,6 +29,9 @@ WebUI.click(findTestObject('Update/Checkbox againts eway bill'))
 
 WebUI.delay(1)
 
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(1)
 WebUI.click(findTestObject('Update/Update Part B button'))
 
 WebUI.delay(1)
@@ -43,8 +52,7 @@ WebUI.setText(findTestObject('Update/Enter Vehical No'), 'MH04EX1020')
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('Update/Select Reason'), 
-    'number:1', true)
+WebUI.selectOptionByValue(findTestObject('Update/Select Reason'), 'number:1', true)
 
 WebUI.delay(1)
 
@@ -56,33 +64,51 @@ WebUI.click(findTestObject('Update/Update Button'))
 
 WebUI.delay(1)
 
-String EwayBill = WebUI.click(findTestObject('Update/EwayBill No'))
-
+String EwayBill = WebUI.getText(findTestObject('Update/EwayBill No'))
+KeywordUtil.logInfo('Ewaybill : '+EwayBill)
 WebUI.delay(1)
 
-String EwayBillValiDate= WebUI.getText(findTestObject('Update/EwayBill Validity Date'))
+String EwayBillValiDate = WebUI.getText(findTestObject('Update/EwayBill Validity Date'))
 
-KeywordUtil.logInfo(EwayBillValiDate)
+KeywordUtil.logInfo('EwaybillDate: '+EwayBillValiDate)
 
-CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillValiDate,0, 2, 3)
+CustomKeywords.'utility.WriteToExcel.Sd'(EwayBillValiDate, 0, 2, 3)
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Update/Ok Button'))
 
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
 
-WebUI.scrollToElement(findTestObject('Update/Back Button'), 3)
+WebUI.click(findTestObject('Update/BACK Button'))
 
-WebUI.click(findTestObject('Update/Back Button'))
 
 WebUI.delay(2)
+WebUI.click(findTestObject('Update/Enter EwayBill No. in Filter'))
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Update/Enter EwayBill No. in Filter'), EwayBill)
 
 WebUI.delay(1)
 
 WebUI.sendKeys(findTestObject('Update/Enter EwayBill No. in Filter'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(1)
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
+
+
+String status = WebUI.getText(findTestObject('Update/Check Status Active'))
+
+WebUI.verifyMatch(status, 'ACTIVE', true)
+
+KeywordUtil.logInfo('Ewaybill Status: '+status)
+
+CustomKeywords.'utility.WriteToExcel.Sd'(status, 0, 2, 4)
+
 
 
 
